@@ -1,0 +1,3655 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7f0241111205660c5dffcd64620528c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7f0241111205660c5dffcd64620528c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7f0241111205660c5dffcd64620528c7 = L.map(
+                "map_7f0241111205660c5dffcd64620528c7",
+                {
+                    center: [40.58058, 36.29883],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                    name: "AWMC Base",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_99775a6791927dd62be71768efc29481 = L.tileLayer(
+                "https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png",
+                {"attribution": "\nTiles \u0026copy; \u003ca href=\u0027http://mapbox.com/\u0027 target=\u0027_blank\u0027\u003eMapBox\u003c/a\u003e |\n Data \u0026copy; \u003ca href=\u0027http://www.openstreetmap.org/\u0027 target=\u0027_blank\u0027\u003eOpenStreetMap\u003c/a\u003e and contributors, CC-BY-SA |\n Tiles and Data \u0026copy; 2020 \u003ca href=\u0027http://www.awmc.unc.edu\u0027 target=\u0027_blank\u0027\u003eAWMC\u003c/a\u003e\n \u003ca href=\u0027http://creativecommons.org/licenses/by-nc/3.0/deed.en_US\u0027 target=\u0027_blank\u0027\u003eCC-BY-NC 3.0\u003c/a\u003e\n", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var feature_group_bd253dd19cde5bab6b3ea6ca1fee3604 = L.featureGroup(
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var circle_marker_6925f35a75cea82a1078822c734540f6 = L.circleMarker(
+                [40.823597, 23.846565],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e9badff6b885803df13595537a2b9a02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_623d269c0cd639129a6fdc3a63eb4641 = $(`<div id="html_623d269c0cd639129a6fdc3a63eb4641" style="width: 100.0%; height: 100.0%;">Title: https://nomisma.org/id/macedonia_1st_region</div>`)[0];
+                popup_e9badff6b885803df13595537a2b9a02.setContent(html_623d269c0cd639129a6fdc3a63eb4641);
+            
+        
+
+        circle_marker_6925f35a75cea82a1078822c734540f6.bindPopup(popup_e9badff6b885803df13595537a2b9a02)
+        ;
+
+        
+    
+    
+            var circle_marker_35c9ef5461918d27633fd55f86d78c4a = L.circleMarker(
+                [37.176482, 38.776168],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_24b6a540528a185bcca43a9016273ce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_023894651033e5ec1757e9d93fa87ddc = $(`<div id="html_023894651033e5ec1757e9d93fa87ddc" style="width: 100.0%; height: 100.0%;">Title: https://nomisma.org/id/rose_mint_sco</div>`)[0];
+                popup_24b6a540528a185bcca43a9016273ce6.setContent(html_023894651033e5ec1757e9d93fa87ddc);
+            
+        
+
+        circle_marker_35c9ef5461918d27633fd55f86d78c4a.bindPopup(popup_24b6a540528a185bcca43a9016273ce6)
+        ;
+
+        
+    
+    
+            var circle_marker_b75200539c6de334cd58730aa42519c8 = L.circleMarker(
+                [43.817152, 28.58275],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_76c62e53dbf6936fad5292e4ffb80b8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69c3a623251979e6168cd05b027fb58f = $(`<div id="html_69c3a623251979e6168cd05b027fb58f" style="width: 100.0%; height: 100.0%;">Title: Callatis</div>`)[0];
+                popup_76c62e53dbf6936fad5292e4ffb80b8a.setContent(html_69c3a623251979e6168cd05b027fb58f);
+            
+        
+
+        circle_marker_b75200539c6de334cd58730aa42519c8.bindPopup(popup_76c62e53dbf6936fad5292e4ffb80b8a)
+        ;
+
+        
+    
+    
+            var circle_marker_a5528b6ec6f158b0ff67bc287612bbd3 = L.circleMarker(
+                [42.5393535, 26.481552],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_8e984a339582e9ffd20078e0c2c58981 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29eb8ae42b8f1ed97051b735864966fd = $(`<div id="html_29eb8ae42b8f1ed97051b735864966fd" style="width: 100.0%; height: 100.0%;">Title: Kabyle/Diospolis</div>`)[0];
+                popup_8e984a339582e9ffd20078e0c2c58981.setContent(html_29eb8ae42b8f1ed97051b735864966fd);
+            
+        
+
+        circle_marker_a5528b6ec6f158b0ff67bc287612bbd3.bindPopup(popup_8e984a339582e9ffd20078e0c2c58981)
+        ;
+
+        
+    
+    
+            var circle_marker_95f644a58a33202ac5483d3997dbfd85 = L.circleMarker(
+                [42.65958, 27.7244435],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_1f9de66401face487a31bb7ca9e49c22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6951d815ec30a844512aaa703140d89d = $(`<div id="html_6951d815ec30a844512aaa703140d89d" style="width: 100.0%; height: 100.0%;">Title: Mesembria</div>`)[0];
+                popup_1f9de66401face487a31bb7ca9e49c22.setContent(html_6951d815ec30a844512aaa703140d89d);
+            
+        
+
+        circle_marker_95f644a58a33202ac5483d3997dbfd85.bindPopup(popup_1f9de66401face487a31bb7ca9e49c22)
+        ;
+
+        
+    
+    
+            var circle_marker_09ecae6df921c24cfbf9410c100b19e1 = L.circleMarker(
+                [43.2061605, 27.9134725],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_b2314acd7c73a90cf494a3823078b939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e718fa1eb1670e0ef5f0f2e2bbf2a8e4 = $(`<div id="html_e718fa1eb1670e0ef5f0f2e2bbf2a8e4" style="width: 100.0%; height: 100.0%;">Title: Odessus</div>`)[0];
+                popup_b2314acd7c73a90cf494a3823078b939.setContent(html_e718fa1eb1670e0ef5f0f2e2bbf2a8e4);
+            
+        
+
+        circle_marker_09ecae6df921c24cfbf9410c100b19e1.bindPopup(popup_b2314acd7c73a90cf494a3823078b939)
+        ;
+
+        
+    
+    
+            var circle_marker_b8c6edcae88e5eb1d3f8416bf1a4ef23 = L.circleMarker(
+                [41.25, 21.75],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e3d31d5ae10805c336de76e4f63e2b0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50b8a3ed73cdeb424885d1152982eba5 = $(`<div id="html_50b8a3ed73cdeb424885d1152982eba5" style="width: 100.0%; height: 100.0%;">Title: Macedonia</div>`)[0];
+                popup_e3d31d5ae10805c336de76e4f63e2b0b.setContent(html_50b8a3ed73cdeb424885d1152982eba5);
+            
+        
+
+        circle_marker_b8c6edcae88e5eb1d3f8416bf1a4ef23.bindPopup(popup_e3d31d5ae10805c336de76e4f63e2b0b)
+        ;
+
+        
+    
+    
+            var circle_marker_126515d36ef34aebc06167a6d4737a55 = L.circleMarker(
+                [40.766752125, 22.506735275],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_cdcfcc59b55a459c217b4ef97e0597ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dbcef208dd0dbc06c85141c9e0ed522 = $(`<div id="html_9dbcef208dd0dbc06c85141c9e0ed522" style="width: 100.0%; height: 100.0%;">Title: Pella/Diokletianoupolis</div>`)[0];
+                popup_cdcfcc59b55a459c217b4ef97e0597ab.setContent(html_9dbcef208dd0dbc06c85141c9e0ed522);
+            
+        
+
+        circle_marker_126515d36ef34aebc06167a6d4737a55.bindPopup(popup_cdcfcc59b55a459c217b4ef97e0597ab)
+        ;
+
+        
+    
+    
+            var circle_marker_9226dbb4d8fdab09bab8dc8e0bf82466 = L.circleMarker(
+                [40.1951155, 26.409131],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f23b24ec43e57437f686a056c7c3eb00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066984d8888df25be82c1073ad2bbff3 = $(`<div id="html_066984d8888df25be82c1073ad2bbff3" style="width: 100.0%; height: 100.0%;">Title: Abydos</div>`)[0];
+                popup_f23b24ec43e57437f686a056c7c3eb00.setContent(html_066984d8888df25be82c1073ad2bbff3);
+            
+        
+
+        circle_marker_9226dbb4d8fdab09bab8dc8e0bf82466.bindPopup(popup_f23b24ec43e57437f686a056c7c3eb00)
+        ;
+
+        
+    
+    
+            var circle_marker_bcf35c10bff1075666c80bb690317245 = L.circleMarker(
+                [40.8219755, 23.847005],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d177c49e93f99ccd6e058454cbbf2c4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5630b69cae0a9547a28e189e5ce5d866 = $(`<div id="html_5630b69cae0a9547a28e189e5ce5d866" style="width: 100.0%; height: 100.0%;">Title: Amphipolis</div>`)[0];
+                popup_d177c49e93f99ccd6e058454cbbf2c4a.setContent(html_5630b69cae0a9547a28e189e5ce5d866);
+            
+        
+
+        circle_marker_bcf35c10bff1075666c80bb690317245.bindPopup(popup_d177c49e93f99ccd6e058454cbbf2c4a)
+        ;
+
+        
+    
+    
+            var circle_marker_064d02763fc84591bf76b28e9e81dd46 = L.circleMarker(
+                [40.548232, 26.75081],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f8ed91bf89d56f8b3b210440ba4494b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c136d30e35f72d8593ff4523a75fcfc5 = $(`<div id="html_c136d30e35f72d8593ff4523a75fcfc5" style="width: 100.0%; height: 100.0%;">Title: Kardia/Lysimacheia</div>`)[0];
+                popup_f8ed91bf89d56f8b3b210440ba4494b4.setContent(html_c136d30e35f72d8593ff4523a75fcfc5);
+            
+        
+
+        circle_marker_064d02763fc84591bf76b28e9e81dd46.bindPopup(popup_f8ed91bf89d56f8b3b210440ba4494b4)
+        ;
+
+        
+    
+    
+            var circle_marker_cd2279c4429a3ecf47cd7ad206b7dcde = L.circleMarker(
+                [40.346685, 26.699162],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_418882c8be6bd4ff3d88d22550bf1823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b223cd284c0f4889b6accf1d86d4560d = $(`<div id="html_b223cd284c0f4889b6accf1d86d4560d" style="width: 100.0%; height: 100.0%;">Title: Pityoussa/Lampsacus</div>`)[0];
+                popup_418882c8be6bd4ff3d88d22550bf1823.setContent(html_b223cd284c0f4889b6accf1d86d4560d);
+            
+        
+
+        circle_marker_cd2279c4429a3ecf47cd7ad206b7dcde.bindPopup(popup_418882c8be6bd4ff3d88d22550bf1823)
+        ;
+
+        
+    
+    
+            var circle_marker_b573312c446ee4a0c2d384ece122d123 = L.circleMarker(
+                [40.50370085, 25.53004955],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_556d45c2a8ad72d1b9eb7cad119b4868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c10a0222d3c3ca7b3477dbe6713be3a = $(`<div id="html_2c10a0222d3c3ca7b3477dbe6713be3a" style="width: 100.0%; height: 100.0%;">Title: Samothrace</div>`)[0];
+                popup_556d45c2a8ad72d1b9eb7cad119b4868.setContent(html_2c10a0222d3c3ca7b3477dbe6713be3a);
+            
+        
+
+        circle_marker_b573312c446ee4a0c2d384ece122d123.bindPopup(popup_556d45c2a8ad72d1b9eb7cad119b4868)
+        ;
+
+        
+    
+    
+            var circle_marker_9405a98adf69b8741c604edd634d249c = L.circleMarker(
+                [40.363569, 23.934807],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7ab441f2d428ddf7bc8300f23e17602c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569d2a04a1e3efb8c8078da35694ca67 = $(`<div id="html_569d2a04a1e3efb8c8078da35694ca67" style="width: 100.0%; height: 100.0%;">Title: Sane/Ouranopolis</div>`)[0];
+                popup_7ab441f2d428ddf7bc8300f23e17602c.setContent(html_569d2a04a1e3efb8c8078da35694ca67);
+            
+        
+
+        circle_marker_9405a98adf69b8741c604edd634d249c.bindPopup(popup_7ab441f2d428ddf7bc8300f23e17602c)
+        ;
+
+        
+    
+    
+            var circle_marker_86bfe51f917469c7642060bef6a575b9 = L.circleMarker(
+                [40.2206527, 26.40291625],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e268ea4ab5f11c6cb91f966cfad2d68c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82efb9db82bf9540f409e7807819d435 = $(`<div id="html_82efb9db82bf9540f409e7807819d435" style="width: 100.0%; height: 100.0%;">Title: Sestos</div>`)[0];
+                popup_e268ea4ab5f11c6cb91f966cfad2d68c.setContent(html_82efb9db82bf9540f409e7807819d435);
+            
+        
+
+        circle_marker_86bfe51f917469c7642060bef6a575b9.bindPopup(popup_e268ea4ab5f11c6cb91f966cfad2d68c)
+        ;
+
+        
+    
+    
+            var circle_marker_5abfc069ee8b4aebfb6c6d784a32995d = L.circleMarker(
+                [40.288041, 23.129408],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0a8abdb068bb96e2db6c1a01b7775ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0559c4c36df7602c14370f48e0fe56ca = $(`<div id="html_0559c4c36df7602c14370f48e0fe56ca" style="width: 100.0%; height: 100.0%;">Title: Thracia</div>`)[0];
+                popup_0a8abdb068bb96e2db6c1a01b7775ead.setContent(html_0559c4c36df7602c14370f48e0fe56ca);
+            
+        
+
+        circle_marker_5abfc069ee8b4aebfb6c6d784a32995d.bindPopup(popup_0a8abdb068bb96e2db6c1a01b7775ead)
+        ;
+
+        
+    
+    
+            var circle_marker_ccb79e36efbd4c7271a51c0308f6b88d = L.circleMarker(
+                [40.3855645, 27.883191],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0851bcdddb33b5339990dd9548754007 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2da80fb540d75515f8bc921d112f80e = $(`<div id="html_d2da80fb540d75515f8bc921d112f80e" style="width: 100.0%; height: 100.0%;">Title: Cyzicus</div>`)[0];
+                popup_0851bcdddb33b5339990dd9548754007.setContent(html_d2da80fb540d75515f8bc921d112f80e);
+            
+        
+
+        circle_marker_ccb79e36efbd4c7271a51c0308f6b88d.bindPopup(popup_0851bcdddb33b5339990dd9548754007)
+        ;
+
+        
+    
+    
+            var circle_marker_ad05658553dec9aa549f8c492855ef74 = L.circleMarker(
+                [40.420499, 27.069096],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_a6fb1fb47ca5a6d816b681dd48d0a3a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c02ad35a9a00233a4f215a4115e2bd45 = $(`<div id="html_c02ad35a9a00233a4f215a4115e2bd45" style="width: 100.0%; height: 100.0%;">Title: Parium/Col. Gemella Iulia *Hadriana</div>`)[0];
+                popup_a6fb1fb47ca5a6d816b681dd48d0a3a2.setContent(html_c02ad35a9a00233a4f215a4115e2bd45);
+            
+        
+
+        circle_marker_ad05658553dec9aa549f8c492855ef74.bindPopup(popup_a6fb1fb47ca5a6d816b681dd48d0a3a2)
+        ;
+
+        
+    
+    
+            var circle_marker_1130e821c4db4d4bc45f8e92c4c1b276 = L.circleMarker(
+                [40.971013, 27.952973],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0281ddf1358a05c942f33a1b394f6516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9da299d93e86546d0f285e52e7731b8 = $(`<div id="html_f9da299d93e86546d0f285e52e7731b8" style="width: 100.0%; height: 100.0%;">Title: Perinthus/Heraclea</div>`)[0];
+                popup_0281ddf1358a05c942f33a1b394f6516.setContent(html_f9da299d93e86546d0f285e52e7731b8);
+            
+        
+
+        circle_marker_1130e821c4db4d4bc45f8e92c4c1b276.bindPopup(popup_0281ddf1358a05c942f33a1b394f6516)
+        ;
+
+        
+    
+    
+            var circle_marker_f65978e52d8c1d2da461a73d4ead01bb = L.circleMarker(
+                [40.432469, 29.15639],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_dbe2af17f52ba9ab31732a7859a95e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_450d26272599a5576eb82ff7d18c7f42 = $(`<div id="html_450d26272599a5576eb82ff7d18c7f42" style="width: 100.0%; height: 100.0%;">Title: Prusias ad Mare/Kios</div>`)[0];
+                popup_dbe2af17f52ba9ab31732a7859a95e6f.setContent(html_450d26272599a5576eb82ff7d18c7f42);
+            
+        
+
+        circle_marker_f65978e52d8c1d2da461a73d4ead01bb.bindPopup(popup_dbe2af17f52ba9ab31732a7859a95e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_44a0cdde6313265d73c99dd9b4cb6ed4 = L.circleMarker(
+                [40.983393, 29.025789],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.984126984126984, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_31680e8c392010b81856f62fcbc8fdcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99da65e87e16c54b82b3f099ce79b6c1 = $(`<div id="html_99da65e87e16c54b82b3f099ce79b6c1" style="width: 100.0%; height: 100.0%;">Title: Chalcedon</div>`)[0];
+                popup_31680e8c392010b81856f62fcbc8fdcd.setContent(html_99da65e87e16c54b82b3f099ce79b6c1);
+            
+        
+
+        circle_marker_44a0cdde6313265d73c99dd9b4cb6ed4.bindPopup(popup_31680e8c392010b81856f62fcbc8fdcd)
+        ;
+
+        
+    
+    
+            var circle_marker_cb226cffbc7ecb631a4168b2b1fb3048 = L.circleMarker(
+                [41.0077908096, 28.9612916083],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.174603174603174, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0603d13cf86a556bc970685a3fc1c988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee86787d3235e9eec8146d9707b87966 = $(`<div id="html_ee86787d3235e9eec8146d9707b87966" style="width: 100.0%; height: 100.0%;">Title: Constantinopolis</div>`)[0];
+                popup_0603d13cf86a556bc970685a3fc1c988.setContent(html_ee86787d3235e9eec8146d9707b87966);
+            
+        
+
+        circle_marker_cb226cffbc7ecb631a4168b2b1fb3048.bindPopup(popup_0603d13cf86a556bc970685a3fc1c988)
+        ;
+
+        
+    
+    
+            var circle_marker_1b2384c16dd8ef1fc3a97f1c192b76a7 = L.circleMarker(
+                [38.83379, 27.19367],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_92ade473c1c9e7467e2112ff6a76bc0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce467316999ce995c250242137b46f98 = $(`<div id="html_ce467316999ce995c250242137b46f98" style="width: 100.0%; height: 100.0%;">Title: Aegae</div>`)[0];
+                popup_92ade473c1c9e7467e2112ff6a76bc0a.setContent(html_ce467316999ce995c250242137b46f98);
+            
+        
+
+        circle_marker_1b2384c16dd8ef1fc3a97f1c192b76a7.bindPopup(popup_92ade473c1c9e7467e2112ff6a76bc0a)
+        ;
+
+        
+    
+    
+            var circle_marker_fb0a51698d22c95edc5f74e7d1cc2ab8 = L.circleMarker(
+                [39.7564735, 26.1547495],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.984126984126984, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_48060506fefcf43bb26d5f57e208f3c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c3b375b2d4abb6c90a67c076c345ed5 = $(`<div id="html_9c3b375b2d4abb6c90a67c076c345ed5" style="width: 100.0%; height: 100.0%;">Title: Antigoneia/(Col. Augusta) Alexandria Troas</div>`)[0];
+                popup_48060506fefcf43bb26d5f57e208f3c1.setContent(html_9c3b375b2d4abb6c90a67c076c345ed5);
+            
+        
+
+        circle_marker_fb0a51698d22c95edc5f74e7d1cc2ab8.bindPopup(popup_48060506fefcf43bb26d5f57e208f3c1)
+        ;
+
+        
+    
+    
+            var circle_marker_4e756654124ad600a7c32f834d972b70 = L.circleMarker(
+                [39.491111, 26.3383585],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.777777777777778, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_4f9a9a3d253e9d6a8afb66d9f67b83c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_133ad9ba2694d14da80d1df30cd34d25 = $(`<div id="html_133ad9ba2694d14da80d1df30cd34d25" style="width: 100.0%; height: 100.0%;">Title: Assos/Apollonia</div>`)[0];
+                popup_4f9a9a3d253e9d6a8afb66d9f67b83c9.setContent(html_133ad9ba2694d14da80d1df30cd34d25);
+            
+        
+
+        circle_marker_4e756654124ad600a7c32f834d972b70.bindPopup(popup_4f9a9a3d253e9d6a8afb66d9f67b83c9)
+        ;
+
+        
+    
+    
+            var circle_marker_689c97d82d54ff77f5109b2ff69ae55c = L.circleMarker(
+                [38.37641, 26.1342335],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.174603174603174, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_84b68ef092f93be60b666a18f176799f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_321d871c6a529a553760d29d4fc3f018 = $(`<div id="html_321d871c6a529a553760d29d4fc3f018" style="width: 100.0%; height: 100.0%;">Title: Chios</div>`)[0];
+                popup_84b68ef092f93be60b666a18f176799f.setContent(html_321d871c6a529a553760d29d4fc3f018);
+            
+        
+
+        circle_marker_689c97d82d54ff77f5109b2ff69ae55c.bindPopup(popup_84b68ef092f93be60b666a18f176799f)
+        ;
+
+        
+    
+    
+            var circle_marker_0c1bcdf5fbf6ec350484ddb32b20bd51 = L.circleMarker(
+                [38.760689, 26.9392185],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.968253968253968, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_396ae02d0a591bb6e9765ce21bebea76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc9e5f5d8f55c99dc39fd404075eb184 = $(`<div id="html_dc9e5f5d8f55c99dc39fd404075eb184" style="width: 100.0%; height: 100.0%;">Title: Cyme</div>`)[0];
+                popup_396ae02d0a591bb6e9765ce21bebea76.setContent(html_dc9e5f5d8f55c99dc39fd404075eb184);
+            
+        
+
+        circle_marker_0c1bcdf5fbf6ec350484ddb32b20bd51.bindPopup(popup_396ae02d0a591bb6e9765ce21bebea76)
+        ;
+
+        
+    
+    
+            var circle_marker_8171c63aed080137ca3df642e8b29920 = L.circleMarker(
+                [38.382361, 26.47994],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_303a2ff7a544b8dbd3e1406a34ca079c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575caeaab0bc02382bfce4f3651af9cf = $(`<div id="html_575caeaab0bc02382bfce4f3651af9cf" style="width: 100.0%; height: 100.0%;">Title: Erythrai</div>`)[0];
+                popup_303a2ff7a544b8dbd3e1406a34ca079c.setContent(html_575caeaab0bc02382bfce4f3651af9cf);
+            
+        
+
+        circle_marker_8171c63aed080137ca3df642e8b29920.bindPopup(popup_303a2ff7a544b8dbd3e1406a34ca079c)
+        ;
+
+        
+    
+    
+            var circle_marker_8501b7e602029b3994e46d9e4c7f15c0 = L.circleMarker(
+                [39.9574327844, 26.2384586227],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d0952f5087f812d064c64d6b943a3299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e4b5550d037c7b9178ecc1a1d86fc5 = $(`<div id="html_51e4b5550d037c7b9178ecc1a1d86fc5" style="width: 100.0%; height: 100.0%;">Title: Ilium/Troia</div>`)[0];
+                popup_d0952f5087f812d064c64d6b943a3299.setContent(html_51e4b5550d037c7b9178ecc1a1d86fc5);
+            
+        
+
+        circle_marker_8501b7e602029b3994e46d9e4c7f15c0.bindPopup(popup_d0952f5087f812d064c64d6b943a3299)
+        ;
+
+        
+    
+    
+            var circle_marker_e93f824c4669ac9b4be100b8694846d3 = L.circleMarker(
+                [38.3635964167, 26.77422735],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_398b83eaa12eb21f3d81fabd974e088b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a0696c701902918034bc3e1498d3480 = $(`<div id="html_6a0696c701902918034bc3e1498d3480" style="width: 100.0%; height: 100.0%;">Title: Klazomenai (later)</div>`)[0];
+                popup_398b83eaa12eb21f3d81fabd974e088b.setContent(html_6a0696c701902918034bc3e1498d3480);
+            
+        
+
+        circle_marker_e93f824c4669ac9b4be100b8694846d3.bindPopup(popup_398b83eaa12eb21f3d81fabd974e088b)
+        ;
+
+        
+    
+    
+            var circle_marker_6adb391eb0e7c54464ac9fb95e24c6cc = L.circleMarker(
+                [39.369167, 26.176891],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_88c6486c3fd7d0a506768bf3f62e20ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd8d35173666366569e5f5649c210521 = $(`<div id="html_dd8d35173666366569e5f5649c210521" style="width: 100.0%; height: 100.0%;">Title: Methymna</div>`)[0];
+                popup_88c6486c3fd7d0a506768bf3f62e20ad.setContent(html_dd8d35173666366569e5f5649c210521);
+            
+        
+
+        circle_marker_6adb391eb0e7c54464ac9fb95e24c6cc.bindPopup(popup_88c6486c3fd7d0a506768bf3f62e20ad)
+        ;
+
+        
+    
+    
+            var circle_marker_812c7803a5e345a228b657e0858823e5 = L.circleMarker(
+                [38.840097, 26.985537],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.968253968253968, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_9cb9284ced78a73982dd1a82b38a087f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10a9c09b76c519f36d85a164a928835f = $(`<div id="html_10a9c09b76c519f36d85a164a928835f" style="width: 100.0%; height: 100.0%;">Title: Myrina/Sebastopolis</div>`)[0];
+                popup_9cb9284ced78a73982dd1a82b38a087f.setContent(html_10a9c09b76c519f36d85a164a928835f);
+            
+        
+
+        circle_marker_812c7803a5e345a228b657e0858823e5.bindPopup(popup_9cb9284ced78a73982dd1a82b38a087f)
+        ;
+
+        
+    
+    
+            var circle_marker_f1022937f29f7ad6a851ced8b556c935 = L.circleMarker(
+                [39.110475, 26.547048],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.571428571428571, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7de121e584b3245921f617701b8fc537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5eb31ecff5b8a0465a48ba562298469 = $(`<div id="html_a5eb31ecff5b8a0465a48ba562298469" style="width: 100.0%; height: 100.0%;">Title: Mytilene</div>`)[0];
+                popup_7de121e584b3245921f617701b8fc537.setContent(html_a5eb31ecff5b8a0465a48ba562298469);
+            
+        
+
+        circle_marker_f1022937f29f7ad6a851ced8b556c935.bindPopup(popup_7de121e584b3245921f617701b8fc537)
+        ;
+
+        
+    
+    
+            var circle_marker_aef7cd834399d6910b4d721426169e75 = L.circleMarker(
+                [38.440912, 27.14781],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.380952380952381, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7a98f3f753ddf4da860a69633bfa746c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd6d1c6af3e38ecb553020179d468af9 = $(`<div id="html_bd6d1c6af3e38ecb553020179d468af9" style="width: 100.0%; height: 100.0%;">Title: Naulochon/Smyrna/Palaia Smyrna</div>`)[0];
+                popup_7a98f3f753ddf4da860a69633bfa746c.setContent(html_bd6d1c6af3e38ecb553020179d468af9);
+            
+        
+
+        circle_marker_aef7cd834399d6910b4d721426169e75.bindPopup(popup_7a98f3f753ddf4da860a69633bfa746c)
+        ;
+
+        
+    
+    
+            var circle_marker_032356eb89a317ed3790f7dbc917ab1d = L.circleMarker(
+                [39.1312133333, 27.1845303333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7e88bb651eac267b1cf3785ad27d15f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51a65c6fc02c7b5e298476484e0017ff = $(`<div id="html_51a65c6fc02c7b5e298476484e0017ff" style="width: 100.0%; height: 100.0%;">Title: Pergamum</div>`)[0];
+                popup_7e88bb651eac267b1cf3785ad27d15f6.setContent(html_51a65c6fc02c7b5e298476484e0017ff);
+            
+        
+
+        circle_marker_032356eb89a317ed3790f7dbc917ab1d.bindPopup(popup_7e88bb651eac267b1cf3785ad27d15f6)
+        ;
+
+        
+    
+    
+            var circle_marker_d98442cfd79ab4fbd662727240831fba = L.circleMarker(
+                [38.6703265, 26.754884],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_2a0ee56be5bc940b3e517f4ead043e28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_126fdbf546d5af0d330e1e114a657119 = $(`<div id="html_126fdbf546d5af0d330e1e114a657119" style="width: 100.0%; height: 100.0%;">Title: Phocaea</div>`)[0];
+                popup_2a0ee56be5bc940b3e517f4ead043e28.setContent(html_126fdbf546d5af0d330e1e114a657119);
+            
+        
+
+        circle_marker_d98442cfd79ab4fbd662727240831fba.bindPopup(popup_2a0ee56be5bc940b3e517f4ead043e28)
+        ;
+
+        
+    
+    
+            var circle_marker_b5a43d19bc54b46ecde1640d87e279c4 = L.circleMarker(
+                [38.488314, 28.040286],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_ae8a2cef3f2b52b3f05f5cc8dc596aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_519210dc273adc5732d30df05884862e = $(`<div id="html_519210dc273adc5732d30df05884862e" style="width: 100.0%; height: 100.0%;">Title:  Sardis/Hyde?</div>`)[0];
+                popup_ae8a2cef3f2b52b3f05f5cc8dc596aa4.setContent(html_519210dc273adc5732d30df05884862e);
+            
+        
+
+        circle_marker_b5a43d19bc54b46ecde1640d87e279c4.bindPopup(popup_ae8a2cef3f2b52b3f05f5cc8dc596aa4)
+        ;
+
+        
+    
+    
+            var circle_marker_6f755b9982fb9e7cc76a5afd9a9bf6e1 = L.circleMarker(
+                [38.671912, 27.196998],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.349206349206348, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_5837054b24667dd5257ec2a3f4baa32d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eed68f9200fe5f21151713e7d571cd63 = $(`<div id="html_eed68f9200fe5f21151713e7d571cd63" style="width: 100.0%; height: 100.0%;">Title: Temnos</div>`)[0];
+                popup_5837054b24667dd5257ec2a3f4baa32d.setContent(html_eed68f9200fe5f21151713e7d571cd63);
+            
+        
+
+        circle_marker_6f755b9982fb9e7cc76a5afd9a9bf6e1.bindPopup(popup_5837054b24667dd5257ec2a3f4baa32d)
+        ;
+
+        
+    
+    
+            var circle_marker_51cbe7b179942cd8d5d8f0960d413d9b = L.circleMarker(
+                [39.8278355, 26.0497905],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_34e3e50158d713925d1b880b2222d1ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36163105a29edad35b90655b34e14be9 = $(`<div id="html_36163105a29edad35b90655b34e14be9" style="width: 100.0%; height: 100.0%;">Title: Tenedos</div>`)[0];
+                popup_34e3e50158d713925d1b880b2222d1ff.setContent(html_36163105a29edad35b90655b34e14be9);
+            
+        
+
+        circle_marker_51cbe7b179942cd8d5d8f0960d413d9b.bindPopup(popup_34e3e50158d713925d1b880b2222d1ff)
+        ;
+
+        
+    
+    
+            var circle_marker_d526380e897eb4600e75e41e4c8a86e4 = L.circleMarker(
+                [38.185491, 26.785397],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f796c7a6a8a82c99fdc28762f78914df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b9fb9f048b81e3ed4910333a7978ba7 = $(`<div id="html_2b9fb9f048b81e3ed4910333a7978ba7" style="width: 100.0%; height: 100.0%;">Title: Teos</div>`)[0];
+                popup_f796c7a6a8a82c99fdc28762f78914df.setContent(html_2b9fb9f048b81e3ed4910333a7978ba7);
+            
+        
+
+        circle_marker_d526380e897eb4600e75e41e4c8a86e4.bindPopup(popup_f796c7a6a8a82c99fdc28762f78914df)
+        ;
+
+        
+    
+    
+            var circle_marker_2610a8f1d7db881d023795c6061a60f9 = L.circleMarker(
+                [37.631561, 22.719464],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_fea51a9e359442279d2fe08c5ff7f839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf4c96b38881609ade43d17867e691cf = $(`<div id="html_bf4c96b38881609ade43d17867e691cf" style="width: 100.0%; height: 100.0%;">Title: Argos</div>`)[0];
+                popup_fea51a9e359442279d2fe08c5ff7f839.setContent(html_bf4c96b38881609ade43d17867e691cf);
+            
+        
+
+        circle_marker_2610a8f1d7db881d023795c6061a60f9.bindPopup(popup_fea51a9e359442279d2fe08c5ff7f839)
+        ;
+
+        
+    
+    
+            var circle_marker_60ad67a70d8a56b691b413562d2831d3 = L.circleMarker(
+                [37.4124175, 22.1273485],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_ae3f3063bb14d444658dac4d7d513f39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b41ad66b10b5cb6c2a076ee2f3583a24 = $(`<div id="html_b41ad66b10b5cb6c2a076ee2f3583a24" style="width: 100.0%; height: 100.0%;">Title: Megalopolis</div>`)[0];
+                popup_ae3f3063bb14d444658dac4d7d513f39.setContent(html_b41ad66b10b5cb6c2a076ee2f3583a24);
+            
+        
+
+        circle_marker_60ad67a70d8a56b691b413562d2831d3.bindPopup(popup_ae3f3063bb14d444658dac4d7d513f39)
+        ;
+
+        
+    
+    
+            var circle_marker_e506a0c842253cc26c89c64bcaae37f7 = L.circleMarker(
+                [37.179299, 21.92169],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_cf2667a29fc634b255c4baa8251871b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a96742ba78ebe3eebf06f4a575dd53ca = $(`<div id="html_a96742ba78ebe3eebf06f4a575dd53ca" style="width: 100.0%; height: 100.0%;">Title: Messene</div>`)[0];
+                popup_cf2667a29fc634b255c4baa8251871b1.setContent(html_a96742ba78ebe3eebf06f4a575dd53ca);
+            
+        
+
+        circle_marker_e506a0c842253cc26c89c64bcaae37f7.bindPopup(popup_cf2667a29fc634b255c4baa8251871b1)
+        ;
+
+        
+    
+    
+            var circle_marker_82d712720077f357702aabcfa3932378 = L.circleMarker(
+                [37.2528977769, 22.3127526885],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_61cf7c9c65449592a3caabcfd046272b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ea1175175ac7d0b8de8bcc16eedbc46 = $(`<div id="html_4ea1175175ac7d0b8de8bcc16eedbc46" style="width: 100.0%; height: 100.0%;">Title: Peloponnesus/Peloponnesos/Peloponnese</div>`)[0];
+                popup_61cf7c9c65449592a3caabcfd046272b.setContent(html_4ea1175175ac7d0b8de8bcc16eedbc46);
+            
+        
+
+        circle_marker_82d712720077f357702aabcfa3932378.bindPopup(popup_61cf7c9c65449592a3caabcfd046272b)
+        ;
+
+        
+    
+    
+            var circle_marker_529d93492264deacab37b506778bbf28 = L.circleMarker(
+                [37.9838192179, 22.7121933108],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_3337bea17109e6b5be010cd32f16b72c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_901d73d1eb5ee0c86ddfdc5f6778adf2 = $(`<div id="html_901d73d1eb5ee0c86ddfdc5f6778adf2" style="width: 100.0%; height: 100.0%;">Title: Sicyon/Demetrias</div>`)[0];
+                popup_3337bea17109e6b5be010cd32f16b72c.setContent(html_901d73d1eb5ee0c86ddfdc5f6778adf2);
+            
+        
+
+        circle_marker_529d93492264deacab37b506778bbf28.bindPopup(popup_3337bea17109e6b5be010cd32f16b72c)
+        ;
+
+        
+    
+    
+            var circle_marker_677972819d3ee1c87fd17029e8c69feb = L.circleMarker(
+                [37.9751764678, 23.7263451721],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_684531664264e40994cd2740ab348697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5840ee8b4c153a9d3bf7f400f5ed0bd = $(`<div id="html_b5840ee8b4c153a9d3bf7f400f5ed0bd" style="width: 100.0%; height: 100.0%;">Title: Athenae</div>`)[0];
+                popup_684531664264e40994cd2740ab348697.setContent(html_b5840ee8b4c153a9d3bf7f400f5ed0bd);
+            
+        
+
+        circle_marker_677972819d3ee1c87fd17029e8c69feb.bindPopup(popup_684531664264e40994cd2740ab348697)
+        ;
+
+        
+    
+    
+            var circle_marker_1806ff24ded71c91905cc24367a31ae2 = L.circleMarker(
+                [38.399266, 23.7918065],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_8dec25c9ac47750d1bd4bcaa3076c794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a809636b0ed29fe3797f59c9ce863cee = $(`<div id="html_a809636b0ed29fe3797f59c9ce863cee" style="width: 100.0%; height: 100.0%;">Title: Eretria</div>`)[0];
+                popup_8dec25c9ac47750d1bd4bcaa3076c794.setContent(html_a809636b0ed29fe3797f59c9ce863cee);
+            
+        
+
+        circle_marker_1806ff24ded71c91905cc24367a31ae2.bindPopup(popup_8dec25c9ac47750d1bd4bcaa3076c794)
+        ;
+
+        
+    
+    
+            var circle_marker_93015df184970b0a765aa171d5669de3 = L.circleMarker(
+                [36.443113, 28.227611],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.380952380952381, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e2087c065d8fe34923566370d1f2bcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94ef0d5194e5ddf655972df3481bf4d3 = $(`<div id="html_94ef0d5194e5ddf655972df3481bf4d3" style="width: 100.0%; height: 100.0%;">Title: Rhodos</div>`)[0];
+                popup_e2087c065d8fe34923566370d1f2bcc7.setContent(html_94ef0d5194e5ddf655972df3481bf4d3);
+            
+        
+
+        circle_marker_93015df184970b0a765aa171d5669de3.bindPopup(popup_e2087c065d8fe34923566370d1f2bcc7)
+        ;
+
+        
+    
+    
+            var circle_marker_acbb67e828bec426264274f76adff4fa = L.circleMarker(
+                [37.444567, 24.9423162],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7372412185e24829f8a6563081840ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfbc200bb0048dc3a4f0c3e116d73343 = $(`<div id="html_cfbc200bb0048dc3a4f0c3e116d73343" style="width: 100.0%; height: 100.0%;">Title: Syros</div>`)[0];
+                popup_7372412185e24829f8a6563081840ae1.setContent(html_cfbc200bb0048dc3a4f0c3e116d73343);
+            
+        
+
+        circle_marker_acbb67e828bec426264274f76adff4fa.bindPopup(popup_7372412185e24829f8a6563081840ae1)
+        ;
+
+        
+    
+    
+            var circle_marker_5c81f80c91787f8ef8c4cfbda8a27e0b = L.circleMarker(
+                [37.5973855, 27.970901],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.571428571428571, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0bf2b7c48cd7eadd5ba5a340cfc5d102 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5208dd75bf99724612fae80bd909b356 = $(`<div id="html_5208dd75bf99724612fae80bd909b356" style="width: 100.0%; height: 100.0%;">Title: Alabanda/Antiocheia Chrysaoron</div>`)[0];
+                popup_0bf2b7c48cd7eadd5ba5a340cfc5d102.setContent(html_5208dd75bf99724612fae80bd909b356);
+            
+        
+
+        circle_marker_5c81f80c91787f8ef8c4cfbda8a27e0b.bindPopup(popup_0bf2b7c48cd7eadd5ba5a340cfc5d102)
+        ;
+
+        
+    
+    
+            var circle_marker_7565d8d71ed0e747eb9300600458a81e = L.circleMarker(
+                [36.6881795, 27.3728385],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_77073d79e93a8b25d6b16278f0d946c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0d64db9a942be14cbf727f71671ef1 = $(`<div id="html_ee0d64db9a942be14cbf727f71671ef1" style="width: 100.0%; height: 100.0%;">Title: Cnidus</div>`)[0];
+                popup_77073d79e93a8b25d6b16278f0d946c1.setContent(html_ee0d64db9a942be14cbf727f71671ef1);
+            
+        
+
+        circle_marker_7565d8d71ed0e747eb9300600458a81e.bindPopup(popup_77073d79e93a8b25d6b16278f0d946c1)
+        ;
+
+        
+    
+    
+            var circle_marker_8d374de5e27638e00203bf921acdaa5c = L.circleMarker(
+                [38.108253, 27.1483085],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.984126984126984, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_9d59c530a7ef47e0f64383713aca5dfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d0c7464d6e9021974cc00ae805ae375 = $(`<div id="html_4d0c7464d6e9021974cc00ae805ae375" style="width: 100.0%; height: 100.0%;">Title: Colophon</div>`)[0];
+                popup_9d59c530a7ef47e0f64383713aca5dfb.setContent(html_4d0c7464d6e9021974cc00ae805ae375);
+            
+        
+
+        circle_marker_8d374de5e27638e00203bf921acdaa5c.bindPopup(popup_9d59c530a7ef47e0f64383713aca5dfb)
+        ;
+
+        
+    
+    
+            var circle_marker_db9a90589d374b1e135ff78a9995169b = L.circleMarker(
+                [37.9407625, 27.340307],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d4530aa9a83c36939501e62e0dd3fdd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb98fcda5cb6ef1d7c467891c6d7dcfc = $(`<div id="html_bb98fcda5cb6ef1d7c467891c6d7dcfc" style="width: 100.0%; height: 100.0%;">Title: Ephesus/Arsinoe(ia)</div>`)[0];
+                popup_d4530aa9a83c36939501e62e0dd3fdd5.setContent(html_bb98fcda5cb6ef1d7c467891c6d7dcfc);
+            
+        
+
+        circle_marker_db9a90589d374b1e135ff78a9995169b.bindPopup(popup_d4530aa9a83c36939501e62e0dd3fdd5)
+        ;
+
+        
+    
+    
+            var circle_marker_fb9e79a0e73f596ec4b4d7a2f27a6164 = L.circleMarker(
+                [37.378355, 27.673196],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_3a012555f2daa03a6ea1fb3fc7aeb01d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e9a4ca4b4defb230b7f2834c738548 = $(`<div id="html_26e9a4ca4b4defb230b7f2834c738548" style="width: 100.0%; height: 100.0%;">Title: Europos/Euromos/Philippoi</div>`)[0];
+                popup_3a012555f2daa03a6ea1fb3fc7aeb01d.setContent(html_26e9a4ca4b4defb230b7f2834c738548);
+            
+        
+
+        circle_marker_fb9e79a0e73f596ec4b4d7a2f27a6164.bindPopup(popup_3a012555f2daa03a6ea1fb3fc7aeb01d)
+        ;
+
+        
+    
+    
+            var circle_marker_8c01503522ca64b2c66d11ddfc8aa59a = L.circleMarker(
+                [37.501842, 27.525011],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_3d01667f51dce4522596f3833b9655f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c571e291485559f718ce81c20ea67ce0 = $(`<div id="html_c571e291485559f718ce81c20ea67ce0" style="width: 100.0%; height: 100.0%;">Title: Heraclea ad Latmum/Pleistarcheia</div>`)[0];
+                popup_3d01667f51dce4522596f3833b9655f4.setContent(html_c571e291485559f718ce81c20ea67ce0);
+            
+        
+
+        circle_marker_8c01503522ca64b2c66d11ddfc8aa59a.bindPopup(popup_3d01667f51dce4522596f3833b9655f4)
+        ;
+
+        
+    
+    
+            var circle_marker_0744cbeff193fcc3384d7455559d5771 = L.circleMarker(
+                [36.8932686667, 27.2874243333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0f1fb68a50d4e5456a85500a3c835b10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7db6d74487b273d7487a13dffe57766b = $(`<div id="html_7db6d74487b273d7487a13dffe57766b" style="width: 100.0%; height: 100.0%;">Title: Kos</div>`)[0];
+                popup_0f1fb68a50d4e5456a85500a3c835b10.setContent(html_7db6d74487b273d7487a13dffe57766b);
+            
+        
+
+        circle_marker_0744cbeff193fcc3384d7455559d5771.bindPopup(popup_0f1fb68a50d4e5456a85500a3c835b10)
+        ;
+
+        
+    
+    
+            var circle_marker_800788af6b80bc76fb5b9f082fe24c1f = L.circleMarker(
+                [38.077883, 26.964722],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0a8b2d0f4ff994df3e8bdeaa2bb1a26c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bf849613b8c40a8a6072834965b2735 = $(`<div id="html_8bf849613b8c40a8a6072834965b2735" style="width: 100.0%; height: 100.0%;">Title: Lebedos/Ptolemais</div>`)[0];
+                popup_0a8b2d0f4ff994df3e8bdeaa2bb1a26c.setContent(html_8bf849613b8c40a8a6072834965b2735);
+            
+        
+
+        circle_marker_800788af6b80bc76fb5b9f082fe24c1f.bindPopup(popup_0a8b2d0f4ff994df3e8bdeaa2bb1a26c)
+        ;
+
+        
+    
+    
+            var circle_marker_c09911c3548faa376f5f38bbfc911d3c = L.circleMarker(
+                [37.8505485, 27.526039],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.777777777777778, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_397449b8b129779d1354165dd466084d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbba59c9ad21d7c0542b10e9d9977d0a = $(`<div id="html_bbba59c9ad21d7c0542b10e9d9977d0a" style="width: 100.0%; height: 100.0%;">Title: Magnesia ad Maeandrum/Leukophrys</div>`)[0];
+                popup_397449b8b129779d1354165dd466084d.setContent(html_bbba59c9ad21d7c0542b10e9d9977d0a);
+            
+        
+
+        circle_marker_c09911c3548faa376f5f38bbfc911d3c.bindPopup(popup_397449b8b129779d1354165dd466084d)
+        ;
+
+        
+    
+    
+            var circle_marker_5344bf8ab23dcebd0775340f0754c54b = L.circleMarker(
+                [37.5229047333, 27.2783168333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.777777777777778, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_91c63e7af73ec728072786e0547b5acd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7168dc72cdd4f519113149980741049b = $(`<div id="html_7168dc72cdd4f519113149980741049b" style="width: 100.0%; height: 100.0%;">Title: Miletus</div>`)[0];
+                popup_91c63e7af73ec728072786e0547b5acd.setContent(html_7168dc72cdd4f519113149980741049b);
+            
+        
+
+        circle_marker_5344bf8ab23dcebd0775340f0754c54b.bindPopup(popup_91c63e7af73ec728072786e0547b5acd)
+        ;
+
+        
+    
+    
+            var circle_marker_d9342b1cf00ce4c96e02ae1b847d1d67 = L.circleMarker(
+                [37.3027506667, 27.7902386667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_3eb47c7aa37130108043c6c22f34a3aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e33cc2367037be00fa1f2f6911f23c4 = $(`<div id="html_6e33cc2367037be00fa1f2f6911f23c4" style="width: 100.0%; height: 100.0%;">Title: Mylasa</div>`)[0];
+                popup_3eb47c7aa37130108043c6c22f34a3aa.setContent(html_6e33cc2367037be00fa1f2f6911f23c4);
+            
+        
+
+        circle_marker_d9342b1cf00ce4c96e02ae1b847d1d67.bindPopup(popup_3eb47c7aa37130108043c6c22f34a3aa)
+        ;
+
+        
+    
+    
+            var circle_marker_f18dc04762d546c885a1d0d1da90f765 = L.circleMarker(
+                [36.587875, 27.172056],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_a609be4fda8a4a5b8f44b19dfaef615e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e936a8d05ecfb75c0ef39952ce85131 = $(`<div id="html_4e936a8d05ecfb75c0ef39952ce85131" style="width: 100.0%; height: 100.0%;">Title: Nisyros</div>`)[0];
+                popup_a609be4fda8a4a5b8f44b19dfaef615e.setContent(html_4e936a8d05ecfb75c0ef39952ce85131);
+            
+        
+
+        circle_marker_f18dc04762d546c885a1d0d1da90f765.bindPopup(popup_a609be4fda8a4a5b8f44b19dfaef615e)
+        ;
+
+        
+    
+    
+            var circle_marker_edb160505094b28297e4a2ab7ae2f3ca = L.circleMarker(
+                [37.66, 27.298333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_2b5f79abf69628c2112e6a3e0ea6badb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eb7b7786ab85e487787d33087bc9586 = $(`<div id="html_5eb7b7786ab85e487787d33087bc9586" style="width: 100.0%; height: 100.0%;">Title: Priene/‘Lince’?</div>`)[0];
+                popup_2b5f79abf69628c2112e6a3e0ea6badb.setContent(html_5eb7b7786ab85e487787d33087bc9586);
+            
+        
+
+        circle_marker_edb160505094b28297e4a2ab7ae2f3ca.bindPopup(popup_2b5f79abf69628c2112e6a3e0ea6badb)
+        ;
+
+        
+    
+    
+            var circle_marker_2db4d761dd548cf21cc7167abe5aeb8f = L.circleMarker(
+                [37.68825, 26.944483],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7412de1095573c7ac19def8fbdb883a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9b4f7963f54265e17fa48f7a8b32e35 = $(`<div id="html_e9b4f7963f54265e17fa48f7a8b32e35" style="width: 100.0%; height: 100.0%;">Title: Samos</div>`)[0];
+                popup_7412de1095573c7ac19def8fbdb883a5.setContent(html_e9b4f7963f54265e17fa48f7a8b32e35);
+            
+        
+
+        circle_marker_2db4d761dd548cf21cc7167abe5aeb8f.bindPopup(popup_7412de1095573c7ac19def8fbdb883a5)
+        ;
+
+        
+    
+    
+            var circle_marker_082918a6c1b02b67a99e3cf2d951dc49 = L.circleMarker(
+                [37.873542, 28.548284],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f51cebfc6199753dcbc1a389b47a481c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76c99e5ec68ec9e632d2c89a0583e6c5 = $(`<div id="html_76c99e5ec68ec9e632d2c89a0583e6c5" style="width: 100.0%; height: 100.0%;">Title: Antiochia ad Maeandrum</div>`)[0];
+                popup_f51cebfc6199753dcbc1a389b47a481c.setContent(html_76c99e5ec68ec9e632d2c89a0583e6c5);
+            
+        
+
+        circle_marker_082918a6c1b02b67a99e3cf2d951dc49.bindPopup(popup_f51cebfc6199753dcbc1a389b47a481c)
+        ;
+
+        
+    
+    
+            var circle_marker_c156b0af67349e6239be6943c20dd24b = L.circleMarker(
+                [36.9390236667, 31.1700033333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.365079365079364, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d5004d0e398cb2347b70ad4f83dec6ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d62fd8f0d28bbd3dee3103e1161744e = $(`<div id="html_1d62fd8f0d28bbd3dee3103e1161744e" style="width: 100.0%; height: 100.0%;">Title: Aspendos/Primoupolis</div>`)[0];
+                popup_d5004d0e398cb2347b70ad4f83dec6ce.setContent(html_1d62fd8f0d28bbd3dee3103e1161744e);
+            
+        
+
+        circle_marker_c156b0af67349e6239be6943c20dd24b.bindPopup(popup_d5004d0e398cb2347b70ad4f83dec6ce)
+        ;
+
+        
+    
+    
+            var circle_marker_1bcdc1f942ba811feaa936f243881c47 = L.circleMarker(
+                [36.990721, 30.98638],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f67434c47e92e442739f0db633421177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b6122fb6532a2d1d017bd7320e65378 = $(`<div id="html_5b6122fb6532a2d1d017bd7320e65378" style="width: 100.0%; height: 100.0%;">Title: Pamphylia</div>`)[0];
+                popup_f67434c47e92e442739f0db633421177.setContent(html_5b6122fb6532a2d1d017bd7320e65378);
+            
+        
+
+        circle_marker_1bcdc1f942ba811feaa936f243881c47.bindPopup(popup_f67434c47e92e442739f0db633421177)
+        ;
+
+        
+    
+    
+            var circle_marker_8cdbca2ca43775f1d48646277d29c187 = L.circleMarker(
+                [36.960008725, 30.8530306],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.571428571428571, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0aa01b564efefb23c4f0f908c5d3207a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f2d2bbfa63c7e765be99cd97500fd5d = $(`<div id="html_4f2d2bbfa63c7e765be99cd97500fd5d" style="width: 100.0%; height: 100.0%;">Title: Perge</div>`)[0];
+                popup_0aa01b564efefb23c4f0f908c5d3207a.setContent(html_4f2d2bbfa63c7e765be99cd97500fd5d);
+            
+        
+
+        circle_marker_8cdbca2ca43775f1d48646277d29c187.bindPopup(popup_0aa01b564efefb23c4f0f908c5d3207a)
+        ;
+
+        
+    
+    
+            var circle_marker_782216d93faa355f3ed7d0036c3afb8a = L.circleMarker(
+                [36.5228063333, 30.549049],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.968253968253968, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_746b666e1722ed1d40d91bd430d0f311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_087cde1c8070fdfb6a8cf12acced8997 = $(`<div id="html_087cde1c8070fdfb6a8cf12acced8997" style="width: 100.0%; height: 100.0%;">Title: Phaselis</div>`)[0];
+                popup_746b666e1722ed1d40d91bd430d0f311.setContent(html_087cde1c8070fdfb6a8cf12acced8997);
+            
+        
+
+        circle_marker_782216d93faa355f3ed7d0036c3afb8a.bindPopup(popup_746b666e1722ed1d40d91bd430d0f311)
+        ;
+
+        
+    
+    
+            var circle_marker_45fc40d7dc31f73a8ca477a6e6c8e546 = L.circleMarker(
+                [36.772309, 31.3940885],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.174603174603174, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_943b47d93068d4272873179dfefb1772 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c374e348131321fe73955ff1614e781b = $(`<div id="html_c374e348131321fe73955ff1614e781b" style="width: 100.0%; height: 100.0%;">Title: Side</div>`)[0];
+                popup_943b47d93068d4272873179dfefb1772.setContent(html_c374e348131321fe73955ff1614e781b);
+            
+        
+
+        circle_marker_45fc40d7dc31f73a8ca477a6e6c8e546.bindPopup(popup_943b47d93068d4272873179dfefb1772)
+        ;
+
+        
+    
+    
+            var circle_marker_073d0f2b4f513aed06542cc37154a9f8 = L.circleMarker(
+                [36.990721, 30.98638],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e7e7f30ebd0331473f18b4e8d7f360af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ce802bf6435f903046d01d40c25aa09 = $(`<div id="html_9ce802bf6435f903046d01d40c25aa09" style="width: 100.0%; height: 100.0%;">Title: Sillyon</div>`)[0];
+                popup_e7e7f30ebd0331473f18b4e8d7f360af.setContent(html_9ce802bf6435f903046d01d40c25aa09);
+            
+        
+
+        circle_marker_073d0f2b4f513aed06542cc37154a9f8.bindPopup(popup_e7e7f30ebd0331473f18b4e8d7f360af)
+        ;
+
+        
+    
+    
+            var circle_marker_86e2850fa918586df2abd7a528b1d142 = L.circleMarker(
+                [36.982996, 30.467197],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d5e007c386782a2c4c2893241305fbe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c613452436929b69dd5bd6b607208af3 = $(`<div id="html_c613452436929b69dd5bd6b607208af3" style="width: 100.0%; height: 100.0%;">Title: Termessos</div>`)[0];
+                popup_d5e007c386782a2c4c2893241305fbe5.setContent(html_c613452436929b69dd5bd6b607208af3);
+            
+        
+
+        circle_marker_86e2850fa918586df2abd7a528b1d142.bindPopup(popup_d5e007c386782a2c4c2893241305fbe5)
+        ;
+
+        
+    
+    
+            var circle_marker_ada8ce2dc34df23cd7da3badf1944181 = L.circleMarker(
+                [36.7395805, 35.453557],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d7593b06b291af3bc5c4a67abb777c80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28411c0c95c55bd2a71dc1d3c554de98 = $(`<div id="html_28411c0c95c55bd2a71dc1d3c554de98" style="width: 100.0%; height: 100.0%;">Title: Mallos/Antiochia ad Pyramum</div>`)[0];
+                popup_d7593b06b291af3bc5c4a67abb777c80.setContent(html_28411c0c95c55bd2a71dc1d3c554de98);
+            
+        
+
+        circle_marker_ada8ce2dc34df23cd7da3badf1944181.bindPopup(popup_d7593b06b291af3bc5c4a67abb777c80)
+        ;
+
+        
+    
+    
+            var circle_marker_aed8253dc2c7a8aeee0b28bdbe4ded73 = L.circleMarker(
+                [36.379274, 33.9214625],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_93781316c035b7ac0371d61b7acca5fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd5679e0870d729ca43945d8a793217 = $(`<div id="html_0fd5679e0870d729ca43945d8a793217" style="width: 100.0%; height: 100.0%;">Title: Seleucia ad Calycadnum/Tracheia</div>`)[0];
+                popup_93781316c035b7ac0371d61b7acca5fb.setContent(html_0fd5679e0870d729ca43945d8a793217);
+            
+        
+
+        circle_marker_aed8253dc2c7a8aeee0b28bdbe4ded73.bindPopup(popup_93781316c035b7ac0371d61b7acca5fb)
+        ;
+
+        
+    
+    
+            var circle_marker_b45aa150809d3e9c313350ec441d33b2 = L.circleMarker(
+                [36.914956, 34.898228],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_be03f05a6a78fc900be40a322f768b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d9666ab1d649dd704fb8ab9138f546 = $(`<div id="html_70d9666ab1d649dd704fb8ab9138f546" style="width: 100.0%; height: 100.0%;">Title: Tarsus/Antiochia ad Cydnum</div>`)[0];
+                popup_be03f05a6a78fc900be40a322f768b64.setContent(html_70d9666ab1d649dd704fb8ab9138f546);
+            
+        
+
+        circle_marker_b45aa150809d3e9c313350ec441d33b2.bindPopup(popup_be03f05a6a78fc900be40a322f768b64)
+        ;
+
+        
+    
+    
+            var circle_marker_8625e2dd0455592769d6107cdde28d4e = L.circleMarker(
+                [36.26335, 36.230077],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_60c2494d6a9ddb61cace664ad03a41bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62a52b5b447871720bdb481586be3a56 = $(`<div id="html_62a52b5b447871720bdb481586be3a56" style="width: 100.0%; height: 100.0%;">Title: Antigonia</div>`)[0];
+                popup_60c2494d6a9ddb61cace664ad03a41bb.setContent(html_62a52b5b447871720bdb481586be3a56);
+            
+        
+
+        circle_marker_8625e2dd0455592769d6107cdde28d4e.bindPopup(popup_60c2494d6a9ddb61cace664ad03a41bb)
+        ;
+
+        
+    
+    
+            var circle_marker_1e35feaba9ec9103439e83e1c55e96d7 = L.circleMarker(
+                [36.2225515, 36.183214],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.380952380952381, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_b3bf7bde7a924be11efe714d7a32c1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62562b64e300e9d35b558210dabf69c3 = $(`<div id="html_62562b64e300e9d35b558210dabf69c3" style="width: 100.0%; height: 100.0%;">Title: Antiochia/Theoupolis</div>`)[0];
+                popup_b3bf7bde7a924be11efe714d7a32c1f3.setContent(html_62562b64e300e9d35b558210dabf69c3);
+            
+        
+
+        circle_marker_1e35feaba9ec9103439e83e1c55e96d7.bindPopup(popup_b3bf7bde7a924be11efe714d7a32c1f3)
+        ;
+
+        
+    
+    
+            var circle_marker_06b4bd16efd37b296a1cad0f6b4854e1 = L.circleMarker(
+                [36.8655215, 39.0301785],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_96401b4646c3894b6e9b8f72e1399109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6303e0aaceba99c0111e65d47ae106ea = $(`<div id="html_6303e0aaceba99c0111e65d47ae106ea" style="width: 100.0%; height: 100.0%;">Title: Carrhae</div>`)[0];
+                popup_96401b4646c3894b6e9b8f72e1399109.setContent(html_6303e0aaceba99c0111e65d47ae106ea);
+            
+        
+
+        circle_marker_06b4bd16efd37b296a1cad0f6b4854e1.bindPopup(popup_96401b4646c3894b6e9b8f72e1399109)
+        ;
+
+        
+    
+    
+            var circle_marker_d73df3c9126c5efcfda5aa19ae77a560 = L.circleMarker(
+                [36.1212645, 35.9285965],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_5a84251c2f5adedc21ab3c02533794f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7e18e39d67bdbdc17fe05ed4e522b7 = $(`<div id="html_ab7e18e39d67bdbdc17fe05ed4e522b7" style="width: 100.0%; height: 100.0%;">Title: Hydatos Potamoi/Seleukeia Pieria</div>`)[0];
+                popup_5a84251c2f5adedc21ab3c02533794f1.setContent(html_ab7e18e39d67bdbdc17fe05ed4e522b7);
+            
+        
+
+        circle_marker_d73df3c9126c5efcfda5aa19ae77a560.bindPopup(popup_5a84251c2f5adedc21ab3c02533794f1)
+        ;
+
+        
+    
+    
+            var circle_marker_8c71c3566c2e8478f020bdc335d1f6a0 = L.circleMarker(
+                [36.9644503333, 35.61627],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_95989d4580eabbb302e6f336486646f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c64293c8d231d87f2ab4007e3b76cc89 = $(`<div id="html_c64293c8d231d87f2ab4007e3b76cc89" style="width: 100.0%; height: 100.0%;">Title: Mopsou(h)estia/Seleukeia pros to Pyramo</div>`)[0];
+                popup_95989d4580eabbb302e6f336486646f0.setContent(html_c64293c8d231d87f2ab4007e3b76cc89);
+            
+        
+
+        circle_marker_8c71c3566c2e8478f020bdc335d1f6a0.bindPopup(popup_95989d4580eabbb302e6f336486646f0)
+        ;
+
+        
+    
+    
+            var circle_marker_1acad37a74f60329a0409962634118ff = L.circleMarker(
+                [36.565848, 36.110356],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_9af221b4def7280cdd26780126b12a5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8145d3eac1584298024982443c85027 = $(`<div id="html_b8145d3eac1584298024982443c85027" style="width: 100.0%; height: 100.0%;">Title: Myriand(r)os</div>`)[0];
+                popup_9af221b4def7280cdd26780126b12a5d.setContent(html_b8145d3eac1584298024982443c85027);
+            
+        
+
+        circle_marker_1acad37a74f60329a0409962634118ff.bindPopup(popup_9af221b4def7280cdd26780126b12a5d)
+        ;
+
+        
+    
+    
+            var circle_marker_530b73b31f6d6b6ede984a73284146f3 = L.circleMarker(
+                [34.857075, 35.8584331667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_9764d5aa4299724f12bb67fbe5e17875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a02652b1ee697c7f9312ee44226f2f2e = $(`<div id="html_a02652b1ee697c7f9312ee44226f2f2e" style="width: 100.0%; height: 100.0%;">Title: Arados</div>`)[0];
+                popup_9764d5aa4299724f12bb67fbe5e17875.setContent(html_a02652b1ee697c7f9312ee44226f2f2e);
+            
+        
+
+        circle_marker_530b73b31f6d6b6ede984a73284146f3.bindPopup(popup_9764d5aa4299724f12bb67fbe5e17875)
+        ;
+
+        
+    
+    
+            var circle_marker_60a8cdf1497f06068141970df95c0ea8 = L.circleMarker(
+                [34.1192635, 35.646289],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_5b5b6abec99415b180e057653695c48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c7963110c9affe5c31445a169b01d8f = $(`<div id="html_9c7963110c9affe5c31445a169b01d8f" style="width: 100.0%; height: 100.0%;">Title: Byblos</div>`)[0];
+                popup_5b5b6abec99415b180e057653695c48e.setContent(html_9c7963110c9affe5c31445a169b01d8f);
+            
+        
+
+        circle_marker_60a8cdf1497f06068141970df95c0ea8.bindPopup(popup_5b5b6abec99415b180e057653695c48e)
+        ;
+
+        
+    
+    
+            var circle_marker_1202f92189c9ac23ce6d5792fc99a21a = L.circleMarker(
+                [35.51892275, 35.7766297],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_35950d74e264195746915ce77a0c1011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04f7337779835a3463c3ced7eedd75c4 = $(`<div id="html_04f7337779835a3463c3ced7eedd75c4" style="width: 100.0%; height: 100.0%;">Title: Laodicea</div>`)[0];
+                popup_35950d74e264195746915ce77a0c1011.setContent(html_04f7337779835a3463c3ced7eedd75c4);
+            
+        
+
+        circle_marker_1202f92189c9ac23ce6d5792fc99a21a.bindPopup(popup_35950d74e264195746915ce77a0c1011)
+        ;
+
+        
+    
+    
+            var circle_marker_9c30a50a49394a9b87312d42882d8c2a = L.circleMarker(
+                [35.49124165, 36.401565925],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_aaa1bb17241f259dec8e6f82a0a4ca44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb3c8dbb74cc984391f2309dbcba1a0d = $(`<div id="html_eb3c8dbb74cc984391f2309dbcba1a0d" style="width: 100.0%; height: 100.0%;">Title: Pella/Apamea</div>`)[0];
+                popup_aaa1bb17241f259dec8e6f82a0a4ca44.setContent(html_eb3c8dbb74cc984391f2309dbcba1a0d);
+            
+        
+
+        circle_marker_9c30a50a49394a9b87312d42882d8c2a.bindPopup(popup_aaa1bb17241f259dec8e6f82a0a4ca44)
+        ;
+
+        
+    
+    
+            var circle_marker_5f522bc33bda208006d0e77230dc5866 = L.circleMarker(
+                [32.92128675, 35.079835],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7285ce8c54e458bad294cd092d605680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7b007a88290ab340a6e1d19e9d07e0e = $(`<div id="html_c7b007a88290ab340a6e1d19e9d07e0e" style="width: 100.0%; height: 100.0%;">Title: Ake/Ptolemais</div>`)[0];
+                popup_7285ce8c54e458bad294cd092d605680.setContent(html_c7b007a88290ab340a6e1d19e9d07e0e);
+            
+        
+
+        circle_marker_5f522bc33bda208006d0e77230dc5866.bindPopup(popup_7285ce8c54e458bad294cd092d605680)
+        ;
+
+        
+    
+    
+            var circle_marker_3234838128e742c6b1adb79e82fc0c6b = L.circleMarker(
+                [33.511612, 36.309102],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_d58140a12eace0d54aaa8b642742e7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a56f48ae9b56e233fea2e0c5dd27ca3 = $(`<div id="html_1a56f48ae9b56e233fea2e0c5dd27ca3" style="width: 100.0%; height: 100.0%;">Title: Damascus</div>`)[0];
+                popup_d58140a12eace0d54aaa8b642742e7cb.setContent(html_1a56f48ae9b56e233fea2e0c5dd27ca3);
+            
+        
+
+        circle_marker_3234838128e742c6b1adb79e82fc0c6b.bindPopup(popup_d58140a12eace0d54aaa8b642742e7cb)
+        ;
+
+        
+    
+    
+            var circle_marker_41c8c12e064267509459300c2b2cf58d = L.circleMarker(
+                [33.560328, 35.37324],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_c6dd6706dfd08f7e25b90234688a0811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe62d5452ab9e1074bf129390ec600d6 = $(`<div id="html_fe62d5452ab9e1074bf129390ec600d6" style="width: 100.0%; height: 100.0%;">Title: Sidon/Col. Aurelia Pia</div>`)[0];
+                popup_c6dd6706dfd08f7e25b90234688a0811.setContent(html_fe62d5452ab9e1074bf129390ec600d6);
+            
+        
+
+        circle_marker_41c8c12e064267509459300c2b2cf58d.bindPopup(popup_c6dd6706dfd08f7e25b90234688a0811)
+        ;
+
+        
+    
+    
+            var circle_marker_3edb302a584fd2ac0f3777d617fc786e = L.circleMarker(
+                [35.037245, 32.436032],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_ec11b573206fe784e959f2c686442a0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efad608b018289f5de806fc49b6e1f9f = $(`<div id="html_efad608b018289f5de806fc49b6e1f9f" style="width: 100.0%; height: 100.0%;">Title: Marion</div>`)[0];
+                popup_ec11b573206fe784e959f2c686442a0d.setContent(html_efad608b018289f5de806fc49b6e1f9f);
+            
+        
+
+        circle_marker_3edb302a584fd2ac0f3777d617fc786e.bindPopup(popup_ec11b573206fe784e959f2c686442a0d)
+        ;
+
+        
+    
+    
+            var circle_marker_51a8f23414c04b27debc7e5b2bd81e8e = L.circleMarker(
+                [35.1799505, 33.9030525],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_22d4da6229910af2716fe7f396f330bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3cb788f2920d977b455800189d192de = $(`<div id="html_a3cb788f2920d977b455800189d192de" style="width: 100.0%; height: 100.0%;">Title: Salamis/Konstantia</div>`)[0];
+                popup_22d4da6229910af2716fe7f396f330bc.setContent(html_a3cb788f2920d977b455800189d192de);
+            
+        
+
+        circle_marker_51a8f23414c04b27debc7e5b2bd81e8e.bindPopup(popup_22d4da6229910af2716fe7f396f330bc)
+        ;
+
+        
+    
+    
+            var circle_marker_942ea8bac56456942a62faac87dc2afb = L.circleMarker(
+                [35.138224, 32.813067],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_5d7236e64fc1fc99a2fa1df59222852a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72de2bc00c23225e9a8bbeca8bd03a12 = $(`<div id="html_72de2bc00c23225e9a8bbeca8bd03a12" style="width: 100.0%; height: 100.0%;">Title: Soloi/Aipeia?</div>`)[0];
+                popup_5d7236e64fc1fc99a2fa1df59222852a.setContent(html_72de2bc00c23225e9a8bbeca8bd03a12);
+            
+        
+
+        circle_marker_942ea8bac56456942a62faac87dc2afb.bindPopup(popup_5d7236e64fc1fc99a2fa1df59222852a)
+        ;
+
+        
+    
+    
+            var circle_marker_812d43822f38bda9d7793de792b504c2 = L.circleMarker(
+                [31.201435, 29.909773],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_249d25040da48bab3c8aacf3853f6ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6f7656c1a98139c895adb1695d5f2c7 = $(`<div id="html_f6f7656c1a98139c895adb1695d5f2c7" style="width: 100.0%; height: 100.0%;">Title: Alexandria</div>`)[0];
+                popup_249d25040da48bab3c8aacf3853f6ad5.setContent(html_f6f7656c1a98139c895adb1695d5f2c7);
+            
+        
+
+        circle_marker_812d43822f38bda9d7793de792b504c2.bindPopup(popup_249d25040da48bab3c8aacf3853f6ad5)
+        ;
+
+        
+    
+    
+            var circle_marker_be70ab96a6c6f4293f107bf9f59ab627 = L.circleMarker(
+                [39.6307084369, 30.9888335603],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_b9d269ed7e95006f0b6053849fc24eff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359cc2ef834e3c704796e4724d4899ff = $(`<div id="html_359cc2ef834e3c704796e4724d4899ff" style="width: 100.0%; height: 100.0%;">Title: Asia Minor</div>`)[0];
+                popup_b9d269ed7e95006f0b6053849fc24eff.setContent(html_359cc2ef834e3c704796e4724d4899ff);
+            
+        
+
+        circle_marker_be70ab96a6c6f4293f107bf9f59ab627.bindPopup(popup_b9d269ed7e95006f0b6053849fc24eff)
+        ;
+
+        
+    
+    
+            var circle_marker_23312a44163dca3f0d0a2dba7b600d63 = L.circleMarker(
+                [41.2832553333, 31.4174136667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.587301587301587, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f33463d859ea840008f96ae49f62e3fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7de7f65a291662dfecf5f8b30c3d61 = $(`<div id="html_6d7de7f65a291662dfecf5f8b30c3d61" style="width: 100.0%; height: 100.0%;">Title: Heraclea</div>`)[0];
+                popup_f33463d859ea840008f96ae49f62e3fe.setContent(html_6d7de7f65a291662dfecf5f8b30c3d61);
+            
+        
+
+        circle_marker_23312a44163dca3f0d0a2dba7b600d63.bindPopup(popup_f33463d859ea840008f96ae49f62e3fe)
+        ;
+
+        
+    
+    
+            var circle_marker_935234bbee22f44d676c7c18165a29c3 = L.circleMarker(
+                [41.292721, 36.3313],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7dae22431c0ec5937a09363b2cda150d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3859a6b2fb6dd91f5a8a83ff33d0776 = $(`<div id="html_e3859a6b2fb6dd91f5a8a83ff33d0776" style="width: 100.0%; height: 100.0%;">Title: Amisus/Peiraieus</div>`)[0];
+                popup_7dae22431c0ec5937a09363b2cda150d.setContent(html_e3859a6b2fb6dd91f5a8a83ff33d0776);
+            
+        
+
+        circle_marker_935234bbee22f44d676c7c18165a29c3.bindPopup(popup_7dae22431c0ec5937a09363b2cda150d)
+        ;
+
+        
+    
+    
+            var circle_marker_240f74668fa0ff05d0622910e31454ce = L.circleMarker(
+                [42.025776, 35.143037],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_e826333db0859bd2c077f1184d4ef785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f83be6d51945d6e9f5577d3cce955b5f = $(`<div id="html_f83be6d51945d6e9f5577d3cce955b5f" style="width: 100.0%; height: 100.0%;">Title: Sinope</div>`)[0];
+                popup_e826333db0859bd2c077f1184d4ef785.setContent(html_f83be6d51945d6e9f5577d3cce955b5f);
+            
+        
+
+        circle_marker_240f74668fa0ff05d0622910e31454ce.bindPopup(popup_e826333db0859bd2c077f1184d4ef785)
+        ;
+
+        
+    
+    
+            var circle_marker_688656af087f2b63f8d31f602df41007 = L.circleMarker(
+                [37.0675116667, 41.2154466667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_a49d7437a5223c859099cc37a4e5d224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71bf07b27c99ce315d530ad3e5ea1949 = $(`<div id="html_71bf07b27c99ce315d530ad3e5ea1949" style="width: 100.0%; height: 100.0%;">Title: Nisibis/Antiochia</div>`)[0];
+                popup_a49d7437a5223c859099cc37a4e5d224.setContent(html_71bf07b27c99ce315d530ad3e5ea1949);
+            
+        
+
+        circle_marker_688656af087f2b63f8d31f602df41007.bindPopup(popup_a49d7437a5223c859099cc37a4e5d224)
+        ;
+
+        
+    
+    
+            var circle_marker_c5bcfbdfef9b7e3e631852814273f345 = L.circleMarker(
+                [32.5387834636, 44.4236176449],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_18e3eeafc913b22fdec180625731d2e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb8bdb1c702768e657ec2f055183b6eb = $(`<div id="html_eb8bdb1c702768e657ec2f055183b6eb" style="width: 100.0%; height: 100.0%;">Title: Babylon</div>`)[0];
+                popup_18e3eeafc913b22fdec180625731d2e5.setContent(html_eb8bdb1c702768e657ec2f055183b6eb);
+            
+        
+
+        circle_marker_c5bcfbdfef9b7e3e631852814273f345.bindPopup(popup_18e3eeafc913b22fdec180625731d2e5)
+        ;
+
+        
+    
+    
+            var circle_marker_5d4eb71fc0dba26863f71fbcd078e0de = L.circleMarker(
+                [33.09914, 44.551979],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_0e1da23eb3615f43bad70a4166b8f900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58a120c4ebd322ca8f2b7887477be9c0 = $(`<div id="html_58a120c4ebd322ca8f2b7887477be9c0" style="width: 100.0%; height: 100.0%;">Title: Veh Ardashir/Coche/Mahoza/‘Seleucia’</div>`)[0];
+                popup_0e1da23eb3615f43bad70a4166b8f900.setContent(html_58a120c4ebd322ca8f2b7887477be9c0);
+            
+        
+
+        circle_marker_5d4eb71fc0dba26863f71fbcd078e0de.bindPopup(popup_0e1da23eb3615f43bad70a4166b8f900)
+        ;
+
+        
+    
+    
+            var circle_marker_16fca2d89a49ecabb487f21399e103b2 = L.circleMarker(
+                [34.799294, 48.512209],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.396825396825397, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_61907f5a4cd84095b364f8577278935d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88292dd12c513f17e718ca85b7fef740 = $(`<div id="html_88292dd12c513f17e718ca85b7fef740" style="width: 100.0%; height: 100.0%;">Title: Ecbatana/Hagmatana/Achmeta/Epiphaneia/Ahmadan</div>`)[0];
+                popup_61907f5a4cd84095b364f8577278935d.setContent(html_88292dd12c513f17e718ca85b7fef740);
+            
+        
+
+        circle_marker_16fca2d89a49ecabb487f21399e103b2.bindPopup(popup_61907f5a4cd84095b364f8577278935d)
+        ;
+
+        
+    
+    
+            var circle_marker_f46339080f41663fce3987253d196d78 = L.circleMarker(
+                [32.1887935, 48.2537285],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7936507936507935, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_5c6ad8bfccaab8d6bce913db33914a53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65c5b4cb33a783d0b4767dafaf79278d = $(`<div id="html_65c5b4cb33a783d0b4767dafaf79278d" style="width: 100.0%; height: 100.0%;">Title: Susa/Seleucia ad Eulaeum</div>`)[0];
+                popup_5c6ad8bfccaab8d6bce913db33914a53.setContent(html_65c5b4cb33a783d0b4767dafaf79278d);
+            
+        
+
+        circle_marker_f46339080f41663fce3987253d196d78.bindPopup(popup_5c6ad8bfccaab8d6bce913db33914a53)
+        ;
+
+        
+    
+    
+            var circle_marker_a10a582a02460b2a2e334d7ccd6b738a = L.circleMarker(
+                [39.6307084369, 30.9888335603],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.984126984126984, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_48c1731d3bee5ecc1200d345226c7363 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5255500112a89222c2f94a13c689092b = $(`<div id="html_5255500112a89222c2f94a13c689092b" style="width: 100.0%; height: 100.0%;">Title: ch7,99</div>`)[0];
+                popup_48c1731d3bee5ecc1200d345226c7363.setContent(html_5255500112a89222c2f94a13c689092b);
+            
+        
+
+        circle_marker_a10a582a02460b2a2e334d7ccd6b738a.bindPopup(popup_48c1731d3bee5ecc1200d345226c7363)
+        ;
+
+        
+    
+    
+            var circle_marker_509c6873165d62fc2c2f47bce46e6b9a = L.circleMarker(
+                [36.78713, 34.22001],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.968253968253968, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_8046e0f012bc799970d24bcc34a8b6e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa51009a5ffc59c1165d4767a98f0a6 = $(`<div id="html_0aa51009a5ffc59c1165d4767a98f0a6" style="width: 100.0%; height: 100.0%;">Title: igch1432</div>`)[0];
+                popup_8046e0f012bc799970d24bcc34a8b6e4.setContent(html_0aa51009a5ffc59c1165d4767a98f0a6);
+            
+        
+
+        circle_marker_509c6873165d62fc2c2f47bce46e6b9a.bindPopup(popup_8046e0f012bc799970d24bcc34a8b6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_9b2d02992932f8ee455b1abad77d1b39 = L.circleMarker(
+                [35.0, 38.0],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.380952380952381, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_b09820c8a717b28a1d2c19712653c5c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c57b40ebf50a224c0333bfcce1c3e275 = $(`<div id="html_c57b40ebf50a224c0333bfcce1c3e275" style="width: 100.0%; height: 100.0%;">Title: ch1,77</div>`)[0];
+                popup_b09820c8a717b28a1d2c19712653c5c3.setContent(html_c57b40ebf50a224c0333bfcce1c3e275);
+            
+        
+
+        circle_marker_9b2d02992932f8ee455b1abad77d1b39.bindPopup(popup_b09820c8a717b28a1d2c19712653c5c3)
+        ;
+
+        
+    
+    
+            var circle_marker_cebecd2cd50460c3e2431d0dc36842ff = L.circleMarker(
+                [34.82099, 36.11773],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e78ac3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.380952380952381, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_87cb83cb2f19827c59a9c5ebc29c987a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d82eb67238c20881d438bd7ff85e2eb = $(`<div id="html_3d82eb67238c20881d438bd7ff85e2eb" style="width: 100.0%; height: 100.0%;">Title: igch1541</div>`)[0];
+                popup_87cb83cb2f19827c59a9c5ebc29c987a.setContent(html_3d82eb67238c20881d438bd7ff85e2eb);
+            
+        
+
+        circle_marker_cebecd2cd50460c3e2431d0dc36842ff.bindPopup(popup_87cb83cb2f19827c59a9c5ebc29c987a)
+        ;
+
+        
+    
+    
+            var circle_marker_11231093f87346cf663f00e05f50c1a2 = L.circleMarker(
+                [35.44208, 36.65095],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.571428571428571, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_96a45a944e1280293e8fce741cbe63a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db5c81b3da0870cd944fa4207ae2ae0d = $(`<div id="html_db5c81b3da0870cd944fa4207ae2ae0d" style="width: 100.0%; height: 100.0%;">Title: igch1547</div>`)[0];
+                popup_96a45a944e1280293e8fce741cbe63a0.setContent(html_db5c81b3da0870cd944fa4207ae2ae0d);
+            
+        
+
+        circle_marker_11231093f87346cf663f00e05f50c1a2.bindPopup(popup_96a45a944e1280293e8fce741cbe63a0)
+        ;
+
+        
+    
+    
+            var circle_marker_16d12bfe3baa77ee887bd557b5981e71 = L.circleMarker(
+                [34.51851, 36.36994],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.968253968253968, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_22400b9db929922a318cab95406f4256 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c77aac4ced24db0906069f840e0bb9 = $(`<div id="html_a4c77aac4ced24db0906069f840e0bb9" style="width: 100.0%; height: 100.0%;">Title: igch1559</div>`)[0];
+                popup_22400b9db929922a318cab95406f4256.setContent(html_a4c77aac4ced24db0906069f840e0bb9);
+            
+        
+
+        circle_marker_16d12bfe3baa77ee887bd557b5981e71.bindPopup(popup_22400b9db929922a318cab95406f4256)
+        ;
+
+        
+    
+    
+            var circle_marker_11e69db15d5bbbfb9d934d5fdc7c9fef = L.circleMarker(
+                [33.66667, 35.83333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.190476190476191, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_bcf51123bd3cc9c033cac49b4162033b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9316ad13d3ddf4fe1c312a6b94c6ad1 = $(`<div id="html_c9316ad13d3ddf4fe1c312a6b94c6ad1" style="width: 100.0%; height: 100.0%;">Title: ch10,295</div>`)[0];
+                popup_bcf51123bd3cc9c033cac49b4162033b.setContent(html_c9316ad13d3ddf4fe1c312a6b94c6ad1);
+            
+        
+
+        circle_marker_11e69db15d5bbbfb9d934d5fdc7c9fef.bindPopup(popup_bcf51123bd3cc9c033cac49b4162033b)
+        ;
+
+        
+    
+    
+            var circle_marker_5afa196392c01029a166217c84560af4 = L.circleMarker(
+                [37.21283, 38.78174],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fc8d62", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.698412698412696, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_f871536f2a356f5e40115098a7ea049f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a3a55c311bb28cae2ad88bfbeb4358d = $(`<div id="html_2a3a55c311bb28cae2ad88bfbeb4358d" style="width: 100.0%; height: 100.0%;">Title: igch1772</div>`)[0];
+                popup_f871536f2a356f5e40115098a7ea049f.setContent(html_2a3a55c311bb28cae2ad88bfbeb4358d);
+            
+        
+
+        circle_marker_5afa196392c01029a166217c84560af4.bindPopup(popup_f871536f2a356f5e40115098a7ea049f)
+        ;
+
+        
+    
+    
+            var circle_marker_8556ea88ef363b6499e7eeb52f6e8f3b = L.circleMarker(
+                [39.56131, 30.18813],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.0, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_8c6fa13a14bb0b3f1b4cfa0c27782913 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8fb90d81aa121546472a333a2025fd = $(`<div id="html_ae8fb90d81aa121546472a333a2025fd" style="width: 100.0%; height: 100.0%;">Title: igch1410</div>`)[0];
+                popup_8c6fa13a14bb0b3f1b4cfa0c27782913.setContent(html_ae8fb90d81aa121546472a333a2025fd);
+            
+        
+
+        circle_marker_8556ea88ef363b6499e7eeb52f6e8f3b.bindPopup(popup_8c6fa13a14bb0b3f1b4cfa0c27782913)
+        ;
+
+        
+    
+    
+            var circle_marker_982856648c07fa163dc449653019d592 = L.circleMarker(
+                [36.49939, 36.35755],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd92f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.365079365079364, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_ea97106cf07ba1472aeeff83a678f919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4929d759df353cb936c3ea3582aeafd8 = $(`<div id="html_4929d759df353cb936c3ea3582aeafd8" style="width: 100.0%; height: 100.0%;">Title: ch10,310</div>`)[0];
+                popup_ea97106cf07ba1472aeeff83a678f919.setContent(html_4929d759df353cb936c3ea3582aeafd8);
+            
+        
+
+        circle_marker_982856648c07fa163dc449653019d592.bindPopup(popup_ea97106cf07ba1472aeeff83a678f919)
+        ;
+
+        
+    
+    
+            var circle_marker_1bea0bca7803f8c54d97175686446e20 = L.circleMarker(
+                [37.05944, 37.3825],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8da0cb", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.063492063492063, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_cf6837f44d7c7f12d441b9411dac3080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8ffcb564b85813181d86644e08b66d7 = $(`<div id="html_f8ffcb564b85813181d86644e08b66d7" style="width: 100.0%; height: 100.0%;">Title: ch10,308</div>`)[0];
+                popup_cf6837f44d7c7f12d441b9411dac3080.setContent(html_f8ffcb564b85813181d86644e08b66d7);
+            
+        
+
+        circle_marker_1bea0bca7803f8c54d97175686446e20.bindPopup(popup_cf6837f44d7c7f12d441b9411dac3080)
+        ;
+
+        
+    
+    
+            var circle_marker_f63895cf906c0f9b13fb06d9313670a1 = L.circleMarker(
+                [30.85, 31.2],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.984126984126984, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7b122d8d601b34e999d9800e4a0c5972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5e4fa2b6061359c2915463f1e238d9f = $(`<div id="html_f5e4fa2b6061359c2915463f1e238d9f" style="width: 100.0%; height: 100.0%;">Title: igch1701</div>`)[0];
+                popup_7b122d8d601b34e999d9800e4a0c5972.setContent(html_f5e4fa2b6061359c2915463f1e238d9f);
+            
+        
+
+        circle_marker_f63895cf906c0f9b13fb06d9313670a1.bindPopup(popup_7b122d8d601b34e999d9800e4a0c5972)
+        ;
+
+        
+    
+    
+            var circle_marker_46bb2d0b400e4347817e19d7a3390130 = L.circleMarker(
+                [36.81138, 42.06206],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e5c494", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.365079365079364, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_7902363fdb90a9cedc8273eb6037b1ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b793a5723700cd8385c549f76612a36f = $(`<div id="html_b793a5723700cd8385c549f76612a36f" style="width: 100.0%; height: 100.0%;">Title: igch1773</div>`)[0];
+                popup_7902363fdb90a9cedc8273eb6037b1ac.setContent(html_b793a5723700cd8385c549f76612a36f);
+            
+        
+
+        circle_marker_46bb2d0b400e4347817e19d7a3390130.bindPopup(popup_7902363fdb90a9cedc8273eb6037b1ac)
+        ;
+
+        
+    
+    
+            var circle_marker_c8c7a13aa4f8e6ac3d90e05372246ac8 = L.circleMarker(
+                [40.72799, 28.24974],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a6d854", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.126984126984127, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_43b2c11ad6c7cda218b23c2681e05208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76244565341c4b4cf94bcaefecd4b49a = $(`<div id="html_76244565341c4b4cf94bcaefecd4b49a" style="width: 100.0%; height: 100.0%;">Title: ch7,93</div>`)[0];
+                popup_43b2c11ad6c7cda218b23c2681e05208.setContent(html_76244565341c4b4cf94bcaefecd4b49a);
+            
+        
+
+        circle_marker_c8c7a13aa4f8e6ac3d90e05372246ac8.bindPopup(popup_43b2c11ad6c7cda218b23c2681e05208)
+        ;
+
+        
+    
+    
+            var circle_marker_b7b05bc678865137d610e23766ab6481 = L.circleMarker(
+                [32.54083, 44.42417],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#66c2a5", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.507936507936506, "stroke": true, "weight": 0.5}
+            ).addTo(feature_group_bd253dd19cde5bab6b3ea6ca1fee3604);
+        
+    
+        var popup_438130a668bb5530636f76354d4834c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdd40137bcbe805b99a594dd27b5bbb9 = $(`<div id="html_cdd40137bcbe805b99a594dd27b5bbb9" style="width: 100.0%; height: 100.0%;">Title: igch1774</div>`)[0];
+                popup_438130a668bb5530636f76354d4834c7.setContent(html_cdd40137bcbe805b99a594dd27b5bbb9);
+            
+        
+
+        circle_marker_b7b05bc678865137d610e23766ab6481.bindPopup(popup_438130a668bb5530636f76354d4834c7)
+        ;
+
+        
+    
+    
+            var marker_e56d67e0335ed8808566602d4057ca24 = L.marker(
+                [40.823597, 23.846565],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0caa43f1e03f4eb28d222e2d9de0b842 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ehttps://nomisma.org/id/macedonia_1st_region\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_e56d67e0335ed8808566602d4057ca24.setIcon(div_icon_0caa43f1e03f4eb28d222e2d9de0b842);
+        
+    
+            var marker_9545bb38cc39968fee2b6427ddca2622 = L.marker(
+                [37.176482, 38.776168],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_77b5b547d738d3785d94becc5b41b47f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ehttps://nomisma.org/id/rose_mint_sco\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_9545bb38cc39968fee2b6427ddca2622.setIcon(div_icon_77b5b547d738d3785d94becc5b41b47f);
+        
+    
+            var marker_df00ab5098d7e34812ecc497794c3499 = L.marker(
+                [43.817152, 28.58275],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_dda16858dfdca287b375bfbc43e313d9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eCallatis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_df00ab5098d7e34812ecc497794c3499.setIcon(div_icon_dda16858dfdca287b375bfbc43e313d9);
+        
+    
+            var marker_248bf94509d8dbb23033417c86d479f4 = L.marker(
+                [42.5393535, 26.481552],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_d95d94a74df0dc89b9de2b0b645237b8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eKabyle/Diospolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_248bf94509d8dbb23033417c86d479f4.setIcon(div_icon_d95d94a74df0dc89b9de2b0b645237b8);
+        
+    
+            var marker_1def6a2babff9e97c9e15fa37f48d5ed = L.marker(
+                [42.65958, 27.7244435],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_37948d684154572bab116b5a43fc6ff5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMesembria\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1def6a2babff9e97c9e15fa37f48d5ed.setIcon(div_icon_37948d684154572bab116b5a43fc6ff5);
+        
+    
+            var marker_1d8cfb8bed8c9f8c2e2860ab38d1ee99 = L.marker(
+                [43.2061605, 27.9134725],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_dbece9a4bd10c52409445cf2cf7b8e7a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eOdessus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1d8cfb8bed8c9f8c2e2860ab38d1ee99.setIcon(div_icon_dbece9a4bd10c52409445cf2cf7b8e7a);
+        
+    
+            var marker_98a06dc7e2772d89e0c49e36984c8903 = L.marker(
+                [41.25, 21.75],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_bd238d01363292f4476ae95ffcd894eb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMacedonia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_98a06dc7e2772d89e0c49e36984c8903.setIcon(div_icon_bd238d01363292f4476ae95ffcd894eb);
+        
+    
+            var marker_4aff10fcb5ffd9b6015d7f2a8fe5e5e2 = L.marker(
+                [40.766752125, 22.506735275],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_465633f0a9462de5cde0bc640724861e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePella/Diokletianoupolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4aff10fcb5ffd9b6015d7f2a8fe5e5e2.setIcon(div_icon_465633f0a9462de5cde0bc640724861e);
+        
+    
+            var marker_3d29b9a5bbb59d5502c7a80ad7d70efd = L.marker(
+                [40.1951155, 26.409131],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a0cdac6b3dd07d539f21b032951159bb = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAbydos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_3d29b9a5bbb59d5502c7a80ad7d70efd.setIcon(div_icon_a0cdac6b3dd07d539f21b032951159bb);
+        
+    
+            var marker_1185eb59831c8e5e47672e71f455f7c4 = L.marker(
+                [40.8219755, 23.847005],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_005dce7184632337e38f94a3a9d4f0de = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAmphipolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1185eb59831c8e5e47672e71f455f7c4.setIcon(div_icon_005dce7184632337e38f94a3a9d4f0de);
+        
+    
+            var marker_31be0536d7d083b46dfcb371e52185ea = L.marker(
+                [40.548232, 26.75081],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_cccafaf540249e7d0883485761a433b1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eKardia/Lysimacheia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_31be0536d7d083b46dfcb371e52185ea.setIcon(div_icon_cccafaf540249e7d0883485761a433b1);
+        
+    
+            var marker_cccae786fbe81e99db7d9cd5705d7d99 = L.marker(
+                [40.346685, 26.699162],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_6eef499f127460697c8719beed4408f0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePityoussa/Lampsacus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_cccae786fbe81e99db7d9cd5705d7d99.setIcon(div_icon_6eef499f127460697c8719beed4408f0);
+        
+    
+            var marker_94e79337193b7a24b620a28ece327db2 = L.marker(
+                [40.50370085, 25.53004955],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a86153c5542ea30190b42074655a3d4e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSamothrace\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_94e79337193b7a24b620a28ece327db2.setIcon(div_icon_a86153c5542ea30190b42074655a3d4e);
+        
+    
+            var marker_1926d4f7fdd5f8b13e35fdca0d792aa6 = L.marker(
+                [40.363569, 23.934807],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_5a26cf6e6b9e91933151ddcb9b5f2c76 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSane/Ouranopolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1926d4f7fdd5f8b13e35fdca0d792aa6.setIcon(div_icon_5a26cf6e6b9e91933151ddcb9b5f2c76);
+        
+    
+            var marker_9ffa98486deb4cc45ebc09540efe37e1 = L.marker(
+                [40.2206527, 26.40291625],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_7988827b331130fb527d64084f592f9c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSestos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_9ffa98486deb4cc45ebc09540efe37e1.setIcon(div_icon_7988827b331130fb527d64084f592f9c);
+        
+    
+            var marker_46a6dc5c3edc9e89f53ed5f654189a56 = L.marker(
+                [40.288041, 23.129408],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_679a3dc702e6401c3aabf709b54719f4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eThracia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_46a6dc5c3edc9e89f53ed5f654189a56.setIcon(div_icon_679a3dc702e6401c3aabf709b54719f4);
+        
+    
+            var marker_5b0a81be5e72260cc8585723954aeb20 = L.marker(
+                [40.3855645, 27.883191],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0d0c3b2e98ca276be834a155489f4d02 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eCyzicus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5b0a81be5e72260cc8585723954aeb20.setIcon(div_icon_0d0c3b2e98ca276be834a155489f4d02);
+        
+    
+            var marker_d307ca8611d9c739ae8d366a32ad33de = L.marker(
+                [40.420499, 27.069096],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_824615f524b5af9ba27aed5e712f784e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eParium/Col. Gemella Iulia *Hadriana\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_d307ca8611d9c739ae8d366a32ad33de.setIcon(div_icon_824615f524b5af9ba27aed5e712f784e);
+        
+    
+            var marker_2250c9e086f84c0ce795123a035ec254 = L.marker(
+                [40.971013, 27.952973],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_915579e2bfa56faa2886e5d46fef1555 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePerinthus/Heraclea\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_2250c9e086f84c0ce795123a035ec254.setIcon(div_icon_915579e2bfa56faa2886e5d46fef1555);
+        
+    
+            var marker_4750a352b28b1840abb69ed3dba93fc9 = L.marker(
+                [40.432469, 29.15639],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_58b558f2aed9fdd4c72d3de7cad48a68 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePrusias ad Mare/Kios\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4750a352b28b1840abb69ed3dba93fc9.setIcon(div_icon_58b558f2aed9fdd4c72d3de7cad48a68);
+        
+    
+            var marker_5c967395f01e9c84ba4387edbfc5e0e0 = L.marker(
+                [40.983393, 29.025789],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_13e61785fa1f2ac2be629118ec0f2ee6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eChalcedon\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5c967395f01e9c84ba4387edbfc5e0e0.setIcon(div_icon_13e61785fa1f2ac2be629118ec0f2ee6);
+        
+    
+            var marker_2335b9cbe93eb9a2c45d0e26a2f419f8 = L.marker(
+                [41.0077908096, 28.9612916083],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_5dbc477a6e8fb237dc3e1149993d4c7c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eConstantinopolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_2335b9cbe93eb9a2c45d0e26a2f419f8.setIcon(div_icon_5dbc477a6e8fb237dc3e1149993d4c7c);
+        
+    
+            var marker_485791bc83fdfe2ecd5a85a83d58a396 = L.marker(
+                [38.83379, 27.19367],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_1bbde5af9c283b25e223e3d331b4dbd7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAegae\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_485791bc83fdfe2ecd5a85a83d58a396.setIcon(div_icon_1bbde5af9c283b25e223e3d331b4dbd7);
+        
+    
+            var marker_1a04c3ca1f6c96f658a1174aef26ec10 = L.marker(
+                [39.7564735, 26.1547495],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_10204195cfffc55a1e91a426a3494545 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAntigoneia/(Col. Augusta) Alexandria Troas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1a04c3ca1f6c96f658a1174aef26ec10.setIcon(div_icon_10204195cfffc55a1e91a426a3494545);
+        
+    
+            var marker_55c5c80ef1e75f503cbcc86ba5dc30b2 = L.marker(
+                [39.491111, 26.3383585],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_97bd88254b910c2a408ff0df41300bc9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAssos/Apollonia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_55c5c80ef1e75f503cbcc86ba5dc30b2.setIcon(div_icon_97bd88254b910c2a408ff0df41300bc9);
+        
+    
+            var marker_ba2bb0553d435de2df1da25eebe61534 = L.marker(
+                [38.37641, 26.1342335],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_7b79d710937984caf1aba6801212b3d5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eChios\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ba2bb0553d435de2df1da25eebe61534.setIcon(div_icon_7b79d710937984caf1aba6801212b3d5);
+        
+    
+            var marker_e299a90ba1a33a41175229ef33f661f5 = L.marker(
+                [38.760689, 26.9392185],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_7ada4d569702e257f0d3aeb858800ee5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eCyme\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_e299a90ba1a33a41175229ef33f661f5.setIcon(div_icon_7ada4d569702e257f0d3aeb858800ee5);
+        
+    
+            var marker_25d5587777d4add8676a9d7c5cdf0644 = L.marker(
+                [38.382361, 26.47994],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_dcf8c9b1dd2c7e9da82c7fc74420a328 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eErythrai\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_25d5587777d4add8676a9d7c5cdf0644.setIcon(div_icon_dcf8c9b1dd2c7e9da82c7fc74420a328);
+        
+    
+            var marker_7f6ddd9c3763a3b6196663f5d0101461 = L.marker(
+                [39.9574327844, 26.2384586227],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_e0c5ece74277535e660835b3896770d9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eIlium/Troia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7f6ddd9c3763a3b6196663f5d0101461.setIcon(div_icon_e0c5ece74277535e660835b3896770d9);
+        
+    
+            var marker_be89241f66c4189ae0ac46fa6fff7ddf = L.marker(
+                [38.3635964167, 26.77422735],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_7177dd06d73da174ab0f7f84a429d1a6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eKlazomenai (later)\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_be89241f66c4189ae0ac46fa6fff7ddf.setIcon(div_icon_7177dd06d73da174ab0f7f84a429d1a6);
+        
+    
+            var marker_7d71a729b44510485ad20a9c705d71d3 = L.marker(
+                [39.369167, 26.176891],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_6d2ea8aa68449f59549b12b00c4caf91 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMethymna\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7d71a729b44510485ad20a9c705d71d3.setIcon(div_icon_6d2ea8aa68449f59549b12b00c4caf91);
+        
+    
+            var marker_6abc069de29bf017ef0661e48b460133 = L.marker(
+                [38.840097, 26.985537],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_648c150712210b9703f768c152324b6b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMyrina/Sebastopolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_6abc069de29bf017ef0661e48b460133.setIcon(div_icon_648c150712210b9703f768c152324b6b);
+        
+    
+            var marker_47fda245fbd3902eb18e90f18e677994 = L.marker(
+                [39.110475, 26.547048],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ee392e7965ab07d66b9fe804ee651b5e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMytilene\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_47fda245fbd3902eb18e90f18e677994.setIcon(div_icon_ee392e7965ab07d66b9fe804ee651b5e);
+        
+    
+            var marker_af4d75b3ac4a73357ca94a1532cf7c16 = L.marker(
+                [38.440912, 27.14781],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_323546cd385444e077a3b8347850d6f4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eNaulochon/Smyrna/Palaia Smyrna\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_af4d75b3ac4a73357ca94a1532cf7c16.setIcon(div_icon_323546cd385444e077a3b8347850d6f4);
+        
+    
+            var marker_3ce2d232dc2c3862c9eb59fcdda79961 = L.marker(
+                [39.1312133333, 27.1845303333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_98a43cfa531ce699247df370a8dac005 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePergamum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_3ce2d232dc2c3862c9eb59fcdda79961.setIcon(div_icon_98a43cfa531ce699247df370a8dac005);
+        
+    
+            var marker_294d6a08bdeb77669f1f23b39c88eed5 = L.marker(
+                [38.6703265, 26.754884],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_76c8f7b08b176db3bb618603ec5f5c05 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePhocaea\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_294d6a08bdeb77669f1f23b39c88eed5.setIcon(div_icon_76c8f7b08b176db3bb618603ec5f5c05);
+        
+    
+            var marker_e62d42a284654fd6b01014750acd2a5f = L.marker(
+                [38.488314, 28.040286],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_012f2a31e1769c08c8c9b0ab46d20ea1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003e Sardis/Hyde?\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_e62d42a284654fd6b01014750acd2a5f.setIcon(div_icon_012f2a31e1769c08c8c9b0ab46d20ea1);
+        
+    
+            var marker_1cd36a4a433f2e1bebb893513fec09eb = L.marker(
+                [38.671912, 27.196998],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_169720b625feb6ba0128e238d4f07c9e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eTemnos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1cd36a4a433f2e1bebb893513fec09eb.setIcon(div_icon_169720b625feb6ba0128e238d4f07c9e);
+        
+    
+            var marker_0aa5a00fd2442402f20e7da51b493eee = L.marker(
+                [39.8278355, 26.0497905],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_6d705310ec5f21f70618f681585d983d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eTenedos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_0aa5a00fd2442402f20e7da51b493eee.setIcon(div_icon_6d705310ec5f21f70618f681585d983d);
+        
+    
+            var marker_6102ec97d724421bdfcef9001417a332 = L.marker(
+                [38.185491, 26.785397],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_1cd458c7c7b0f1ebcea9b687751af6dd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eTeos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_6102ec97d724421bdfcef9001417a332.setIcon(div_icon_1cd458c7c7b0f1ebcea9b687751af6dd);
+        
+    
+            var marker_fc8ac381bf2e39b73f43917f9d553df5 = L.marker(
+                [37.631561, 22.719464],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_bee88f02730568edd17559418346fcfa = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eArgos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_fc8ac381bf2e39b73f43917f9d553df5.setIcon(div_icon_bee88f02730568edd17559418346fcfa);
+        
+    
+            var marker_3c23fdbb2ee522d341e522b62289fbd3 = L.marker(
+                [37.4124175, 22.1273485],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_81f3bffbf48534a411a19829c8e0cefe = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMegalopolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_3c23fdbb2ee522d341e522b62289fbd3.setIcon(div_icon_81f3bffbf48534a411a19829c8e0cefe);
+        
+    
+            var marker_ceb688f010b4ee1b9a87f311a7c86be4 = L.marker(
+                [37.179299, 21.92169],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b88220a5f33af6b1031c710508fc593a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMessene\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ceb688f010b4ee1b9a87f311a7c86be4.setIcon(div_icon_b88220a5f33af6b1031c710508fc593a);
+        
+    
+            var marker_cb505383d95b78491d69f019049b3455 = L.marker(
+                [37.2528977769, 22.3127526885],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0caf662cf6726099d3efccc7e6826bc3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePeloponnesus/Peloponnesos/Peloponnese\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_cb505383d95b78491d69f019049b3455.setIcon(div_icon_0caf662cf6726099d3efccc7e6826bc3);
+        
+    
+            var marker_7f81d78d297fd0403c76de9e786961dc = L.marker(
+                [37.9838192179, 22.7121933108],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_6b998eca785e58a6f693e11e074c4f57 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSicyon/Demetrias\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7f81d78d297fd0403c76de9e786961dc.setIcon(div_icon_6b998eca785e58a6f693e11e074c4f57);
+        
+    
+            var marker_955b309004f1900c31b5a778a9d7f083 = L.marker(
+                [37.9751764678, 23.7263451721],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_50ca8479ae20b9110439dcbba6fe4339 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAthenae\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_955b309004f1900c31b5a778a9d7f083.setIcon(div_icon_50ca8479ae20b9110439dcbba6fe4339);
+        
+    
+            var marker_4f527b50f0d4909747bd33ed11169bd2 = L.marker(
+                [38.399266, 23.7918065],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_9ff52adeb2b3fd6063513df729349b55 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eEretria\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4f527b50f0d4909747bd33ed11169bd2.setIcon(div_icon_9ff52adeb2b3fd6063513df729349b55);
+        
+    
+            var marker_5095b47c5e86d975c19ea5f6cd0aec40 = L.marker(
+                [36.443113, 28.227611],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_3a915a5fcb4858d3c22c1084124174c6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eRhodos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5095b47c5e86d975c19ea5f6cd0aec40.setIcon(div_icon_3a915a5fcb4858d3c22c1084124174c6);
+        
+    
+            var marker_28d15d14db17c8a5cb9a6b76a0c4a9f8 = L.marker(
+                [37.444567, 24.9423162],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_6b89d70b841f4a3bb6bae335007fabad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSyros\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_28d15d14db17c8a5cb9a6b76a0c4a9f8.setIcon(div_icon_6b89d70b841f4a3bb6bae335007fabad);
+        
+    
+            var marker_9dd678fc124332cd2adaf389510609b3 = L.marker(
+                [37.5973855, 27.970901],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_5a588347ded42594c5ecf6fb8de4fa02 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAlabanda/Antiocheia Chrysaoron\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_9dd678fc124332cd2adaf389510609b3.setIcon(div_icon_5a588347ded42594c5ecf6fb8de4fa02);
+        
+    
+            var marker_47ae39cea075a6930e4c991a7f2c5c54 = L.marker(
+                [36.6881795, 27.3728385],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_e86dc989055537b016b05aaf69c03e68 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eCnidus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_47ae39cea075a6930e4c991a7f2c5c54.setIcon(div_icon_e86dc989055537b016b05aaf69c03e68);
+        
+    
+            var marker_e0cb82c708026edfd479071a7d387ffd = L.marker(
+                [38.108253, 27.1483085],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_fef18a5a0d0df973c518422b66333e7d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eColophon\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_e0cb82c708026edfd479071a7d387ffd.setIcon(div_icon_fef18a5a0d0df973c518422b66333e7d);
+        
+    
+            var marker_7f2fcbac12a13a58e0d7cb29eb47dfec = L.marker(
+                [37.9407625, 27.340307],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_e1c8aa03512dda4dffdbef72e0ecf04a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eEphesus/Arsinoe(ia)\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7f2fcbac12a13a58e0d7cb29eb47dfec.setIcon(div_icon_e1c8aa03512dda4dffdbef72e0ecf04a);
+        
+    
+            var marker_86952ec2525a1d480db32ce386d6ce71 = L.marker(
+                [37.378355, 27.673196],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_903fcd60004b37d126282031db63dc80 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eEuropos/Euromos/Philippoi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_86952ec2525a1d480db32ce386d6ce71.setIcon(div_icon_903fcd60004b37d126282031db63dc80);
+        
+    
+            var marker_dfd37761540fd085bb9609ca1e156002 = L.marker(
+                [37.501842, 27.525011],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_8d60a14e22c3546ba5dda0d704b30ab1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eHeraclea ad Latmum/Pleistarcheia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_dfd37761540fd085bb9609ca1e156002.setIcon(div_icon_8d60a14e22c3546ba5dda0d704b30ab1);
+        
+    
+            var marker_5b8d491880a127631c85a5e0d4d640d4 = L.marker(
+                [36.8932686667, 27.2874243333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_82acf3d123e1fcaa30bbae359723fbf0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eKos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5b8d491880a127631c85a5e0d4d640d4.setIcon(div_icon_82acf3d123e1fcaa30bbae359723fbf0);
+        
+    
+            var marker_7493b75c8434ba37b2a0e410f4a53777 = L.marker(
+                [38.077883, 26.964722],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0f9ac9f52f1a24e5af3c8e639ddc8d8f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eLebedos/Ptolemais\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7493b75c8434ba37b2a0e410f4a53777.setIcon(div_icon_0f9ac9f52f1a24e5af3c8e639ddc8d8f);
+        
+    
+            var marker_5146c03acbb11b86ed065c3dd2c879e3 = L.marker(
+                [37.8505485, 27.526039],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_415b8d97703934989bc3c48264f5ce90 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMagnesia ad Maeandrum/Leukophrys\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5146c03acbb11b86ed065c3dd2c879e3.setIcon(div_icon_415b8d97703934989bc3c48264f5ce90);
+        
+    
+            var marker_4b2bb40a7ef1527b836b138b26afc595 = L.marker(
+                [37.5229047333, 27.2783168333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_15782a2f99bb5c310e50ba60d4fec376 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMiletus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4b2bb40a7ef1527b836b138b26afc595.setIcon(div_icon_15782a2f99bb5c310e50ba60d4fec376);
+        
+    
+            var marker_ef872f1842ebe08c9b735269b4661087 = L.marker(
+                [37.3027506667, 27.7902386667],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_9eaa3f18fa06b486e82655b4ae9fa24b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMylasa\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ef872f1842ebe08c9b735269b4661087.setIcon(div_icon_9eaa3f18fa06b486e82655b4ae9fa24b);
+        
+    
+            var marker_1bdad92496844aac5842420f0f3870f1 = L.marker(
+                [36.587875, 27.172056],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0fbdbb26f037ac81046b729978d259fd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eNisyros\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1bdad92496844aac5842420f0f3870f1.setIcon(div_icon_0fbdbb26f037ac81046b729978d259fd);
+        
+    
+            var marker_48d25009abb8f284f04c6b3b4ed032cf = L.marker(
+                [37.66, 27.298333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_dc976485e22c1f7d573420071601147f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePriene/\u2018Lince\u2019?\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_48d25009abb8f284f04c6b3b4ed032cf.setIcon(div_icon_dc976485e22c1f7d573420071601147f);
+        
+    
+            var marker_330c2d58fde6bd1520479dbea46c1843 = L.marker(
+                [37.68825, 26.944483],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_c86dd2ab1e853caebf735b1ca440f8fc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSamos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_330c2d58fde6bd1520479dbea46c1843.setIcon(div_icon_c86dd2ab1e853caebf735b1ca440f8fc);
+        
+    
+            var marker_1b5afae45e345714e4a41be7587276ab = L.marker(
+                [37.873542, 28.548284],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a40e7cc1d02891d73e65fb9758a1e887 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAntiochia ad Maeandrum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1b5afae45e345714e4a41be7587276ab.setIcon(div_icon_a40e7cc1d02891d73e65fb9758a1e887);
+        
+    
+            var marker_0a43e655d5a31de8f8d7f56605d67430 = L.marker(
+                [36.9390236667, 31.1700033333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_305b8f1c7cc9b7f45625cab2f4d9f700 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAspendos/Primoupolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_0a43e655d5a31de8f8d7f56605d67430.setIcon(div_icon_305b8f1c7cc9b7f45625cab2f4d9f700);
+        
+    
+            var marker_7eacf7011d82172490ac98c3f917ad32 = L.marker(
+                [36.990721, 30.98638],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ebe7f9071da8d2a727c06208075843b7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePamphylia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7eacf7011d82172490ac98c3f917ad32.setIcon(div_icon_ebe7f9071da8d2a727c06208075843b7);
+        
+    
+            var marker_ebe207a9ff83014da4ca0ff3677fc05a = L.marker(
+                [36.960008725, 30.8530306],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_03d174a8f2d1e446b6f6295289fa2191 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePerge\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ebe207a9ff83014da4ca0ff3677fc05a.setIcon(div_icon_03d174a8f2d1e446b6f6295289fa2191);
+        
+    
+            var marker_daa6bc035efee6aead983371ca756978 = L.marker(
+                [36.5228063333, 30.549049],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_d1d4f80a7339dd504a9bab3a66355631 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePhaselis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_daa6bc035efee6aead983371ca756978.setIcon(div_icon_d1d4f80a7339dd504a9bab3a66355631);
+        
+    
+            var marker_613fe671b2583a375d6e842cc8040215 = L.marker(
+                [36.772309, 31.3940885],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ddb992f08068c7a55cf660154df023d0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSide\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_613fe671b2583a375d6e842cc8040215.setIcon(div_icon_ddb992f08068c7a55cf660154df023d0);
+        
+    
+            var marker_c3fc1357113826dc131beb617b4f0690 = L.marker(
+                [36.990721, 30.98638],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_9b0e7c6fd89bd75456c32029ce22c1a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSillyon\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_c3fc1357113826dc131beb617b4f0690.setIcon(div_icon_9b0e7c6fd89bd75456c32029ce22c1a2);
+        
+    
+            var marker_aedeaa4296d10b387efca5dfa0b2a613 = L.marker(
+                [36.982996, 30.467197],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_df3644fcfc883b0128705261d6916e11 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eTermessos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_aedeaa4296d10b387efca5dfa0b2a613.setIcon(div_icon_df3644fcfc883b0128705261d6916e11);
+        
+    
+            var marker_41e7ae4ef5f0beb72037a6aaaeb4eec4 = L.marker(
+                [36.7395805, 35.453557],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_f222efd76f4064951bd44ea00b3d055d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMallos/Antiochia ad Pyramum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_41e7ae4ef5f0beb72037a6aaaeb4eec4.setIcon(div_icon_f222efd76f4064951bd44ea00b3d055d);
+        
+    
+            var marker_51b0afa3a87251c6e674bd6217eefc4c = L.marker(
+                [36.379274, 33.9214625],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_514b57bd7944f2748dfba75b9d29541a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSeleucia ad Calycadnum/Tracheia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_51b0afa3a87251c6e674bd6217eefc4c.setIcon(div_icon_514b57bd7944f2748dfba75b9d29541a);
+        
+    
+            var marker_d7988b70770b96b24aa3ef688f44f8b2 = L.marker(
+                [36.914956, 34.898228],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_49059198c4579efe8e7bab180cfd1e74 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eTarsus/Antiochia ad Cydnum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_d7988b70770b96b24aa3ef688f44f8b2.setIcon(div_icon_49059198c4579efe8e7bab180cfd1e74);
+        
+    
+            var marker_2eb2650592619502d94268f316af7d05 = L.marker(
+                [36.26335, 36.230077],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a04dcdbeb266795f6213e33784670867 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAntigonia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_2eb2650592619502d94268f316af7d05.setIcon(div_icon_a04dcdbeb266795f6213e33784670867);
+        
+    
+            var marker_4ea35904c94f9873180c7f6cf77b1b7b = L.marker(
+                [36.2225515, 36.183214],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_f8d2b6015cde47c6e4a9833b2943e65d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAntiochia/Theoupolis\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4ea35904c94f9873180c7f6cf77b1b7b.setIcon(div_icon_f8d2b6015cde47c6e4a9833b2943e65d);
+        
+    
+            var marker_4264718ccb407eec7e5e70c527941a3d = L.marker(
+                [36.8655215, 39.0301785],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_d27205b1c10d7c1156ca18f474eb6c52 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eCarrhae\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_4264718ccb407eec7e5e70c527941a3d.setIcon(div_icon_d27205b1c10d7c1156ca18f474eb6c52);
+        
+    
+            var marker_91df3c6294a8abd2f2aac52ec0d79348 = L.marker(
+                [36.1212645, 35.9285965],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_85bcb385eb313978c12371e46dff3cc3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eHydatos Potamoi/Seleukeia Pieria\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_91df3c6294a8abd2f2aac52ec0d79348.setIcon(div_icon_85bcb385eb313978c12371e46dff3cc3);
+        
+    
+            var marker_bb955a6b9e91b11bc0b9cde7e4d0c29d = L.marker(
+                [36.9644503333, 35.61627],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_05b8c36df1fdda2224188c82675baf21 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMopsou(h)estia/Seleukeia pros to Pyramo\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_bb955a6b9e91b11bc0b9cde7e4d0c29d.setIcon(div_icon_05b8c36df1fdda2224188c82675baf21);
+        
+    
+            var marker_42d87e8fc3b9e5e50d712d243a8a969a = L.marker(
+                [36.565848, 36.110356],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_c1c04128af65c0b8f8718d2430ebae4f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMyriand(r)os\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_42d87e8fc3b9e5e50d712d243a8a969a.setIcon(div_icon_c1c04128af65c0b8f8718d2430ebae4f);
+        
+    
+            var marker_0773bd94fade318e112b844f1680d9d4 = L.marker(
+                [34.857075, 35.8584331667],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_98dd530f227991a9645a6b46347253db = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eArados\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_0773bd94fade318e112b844f1680d9d4.setIcon(div_icon_98dd530f227991a9645a6b46347253db);
+        
+    
+            var marker_be84c516bee2f8303f2ca040cde6eda8 = L.marker(
+                [34.1192635, 35.646289],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b8a6f587f55625ff82b22e6fc5e177a9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eByblos\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_be84c516bee2f8303f2ca040cde6eda8.setIcon(div_icon_b8a6f587f55625ff82b22e6fc5e177a9);
+        
+    
+            var marker_693aeaf1b6e31d7e01b60feee2544651 = L.marker(
+                [35.51892275, 35.7766297],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_1dc029033dc5b1d9e8352da09df99497 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eLaodicea\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_693aeaf1b6e31d7e01b60feee2544651.setIcon(div_icon_1dc029033dc5b1d9e8352da09df99497);
+        
+    
+            var marker_b6621a15168181355a04f0455cc19819 = L.marker(
+                [35.49124165, 36.401565925],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_35be46b25f617ea4095cff0120066c7f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ePella/Apamea\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_b6621a15168181355a04f0455cc19819.setIcon(div_icon_35be46b25f617ea4095cff0120066c7f);
+        
+    
+            var marker_79a9846ae8b857e15adadaf766dc28b7 = L.marker(
+                [32.92128675, 35.079835],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_bad2fe5addcb31ce70e849aa6a25f4a0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAke/Ptolemais\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_79a9846ae8b857e15adadaf766dc28b7.setIcon(div_icon_bad2fe5addcb31ce70e849aa6a25f4a0);
+        
+    
+            var marker_3072502771ab68470283bc13544b3cc7 = L.marker(
+                [33.511612, 36.309102],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_330f68ce2c51e874d72869634a2e4fd0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eDamascus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_3072502771ab68470283bc13544b3cc7.setIcon(div_icon_330f68ce2c51e874d72869634a2e4fd0);
+        
+    
+            var marker_8e041953264432d098d05169d387b5e4 = L.marker(
+                [33.560328, 35.37324],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_f3386d6c162d47bf2ff67e17cc748dc8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSidon/Col. Aurelia Pia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_8e041953264432d098d05169d387b5e4.setIcon(div_icon_f3386d6c162d47bf2ff67e17cc748dc8);
+        
+    
+            var marker_2a2e94e66c1e8b9fb7f8dd5b98ca8478 = L.marker(
+                [35.037245, 32.436032],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_91cb698551cc1a7bd87b17ac1da1acf0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eMarion\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_2a2e94e66c1e8b9fb7f8dd5b98ca8478.setIcon(div_icon_91cb698551cc1a7bd87b17ac1da1acf0);
+        
+    
+            var marker_b7433f09a98372b5e3bab5f9500cd093 = L.marker(
+                [35.1799505, 33.9030525],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b9df980e44b9153621b6186e618702dc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSalamis/Konstantia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_b7433f09a98372b5e3bab5f9500cd093.setIcon(div_icon_b9df980e44b9153621b6186e618702dc);
+        
+    
+            var marker_b5ad8b207f41dbdee519631f9e4dde86 = L.marker(
+                [35.138224, 32.813067],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_705124484debf80b0af1d777cd90c2b5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSoloi/Aipeia?\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_b5ad8b207f41dbdee519631f9e4dde86.setIcon(div_icon_705124484debf80b0af1d777cd90c2b5);
+        
+    
+            var marker_2c385d4e6a433e2479f60f2041ac8116 = L.marker(
+                [31.201435, 29.909773],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b608952753b028c409b6678820870e89 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAlexandria\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_2c385d4e6a433e2479f60f2041ac8116.setIcon(div_icon_b608952753b028c409b6678820870e89);
+        
+    
+            var marker_f40edc8b3ade808c152887c508bde462 = L.marker(
+                [39.6307084369, 30.9888335603],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_2a3125cf20fd05af0a7fdf5574d634ed = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAsia Minor\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_f40edc8b3ade808c152887c508bde462.setIcon(div_icon_2a3125cf20fd05af0a7fdf5574d634ed);
+        
+    
+            var marker_a76b88adcb730ca8efc67d3e9f41a858 = L.marker(
+                [41.2832553333, 31.4174136667],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_7990f5fff259ee62c944ceeb3e0897ed = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eHeraclea\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_a76b88adcb730ca8efc67d3e9f41a858.setIcon(div_icon_7990f5fff259ee62c944ceeb3e0897ed);
+        
+    
+            var marker_bef5818742992bd3d1d2d4c1eee01c3f = L.marker(
+                [41.292721, 36.3313],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ebe0aae55f16a2dd04cbe9b9ce6b6c5f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eAmisus/Peiraieus\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_bef5818742992bd3d1d2d4c1eee01c3f.setIcon(div_icon_ebe0aae55f16a2dd04cbe9b9ce6b6c5f);
+        
+    
+            var marker_7c11021360f9da3398562cda6e294a68 = L.marker(
+                [42.025776, 35.143037],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_0e667cefa7cf56267e6596cbfb88b6e8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSinope\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7c11021360f9da3398562cda6e294a68.setIcon(div_icon_0e667cefa7cf56267e6596cbfb88b6e8);
+        
+    
+            var marker_ae3f75110b5d3713a8c79a4de5847977 = L.marker(
+                [37.0675116667, 41.2154466667],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_5ad2f5a81e87801739a9e6fc4eecedc1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eNisibis/Antiochia\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ae3f75110b5d3713a8c79a4de5847977.setIcon(div_icon_5ad2f5a81e87801739a9e6fc4eecedc1);
+        
+    
+            var marker_d8cedcea95500735b5377f8e35e80b8c = L.marker(
+                [32.5387834636, 44.4236176449],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ce53ac2a04ffffe0c7d2b61482c84b6f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eBabylon\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_d8cedcea95500735b5377f8e35e80b8c.setIcon(div_icon_ce53ac2a04ffffe0c7d2b61482c84b6f);
+        
+    
+            var marker_146417f41a71b4dd3a1c52ff694e15f1 = L.marker(
+                [33.09914, 44.551979],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_33f022a99f40188ab627c8549a90bb6d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eVeh Ardashir/Coche/Mahoza/\u2018Seleucia\u2019\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_146417f41a71b4dd3a1c52ff694e15f1.setIcon(div_icon_33f022a99f40188ab627c8549a90bb6d);
+        
+    
+            var marker_5668909bbecd023b939634d2a6b18dc2 = L.marker(
+                [34.799294, 48.512209],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_cf0283efd14c488cf3a1add8a6e96587 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eEcbatana/Hagmatana/Achmeta/Epiphaneia/Ahmadan\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_5668909bbecd023b939634d2a6b18dc2.setIcon(div_icon_cf0283efd14c488cf3a1add8a6e96587);
+        
+    
+            var marker_e71790951f087a36d73215918474a00e = L.marker(
+                [32.1887935, 48.2537285],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_27e836790321d255018c2b501364c08a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eSusa/Seleucia ad Eulaeum\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_e71790951f087a36d73215918474a00e.setIcon(div_icon_27e836790321d255018c2b501364c08a);
+        
+    
+            var marker_839b332cf5938e869bc5dde68899db66 = L.marker(
+                [39.6307084369, 30.9888335603],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_895ef830cd10a1f15173bdebec1f36a2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech7,99\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_839b332cf5938e869bc5dde68899db66.setIcon(div_icon_895ef830cd10a1f15173bdebec1f36a2);
+        
+    
+            var marker_b7628faeb8a6f7216bf3057ff67ffefd = L.marker(
+                [36.78713, 34.22001],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a7869d5b839f854d4ce7293383fa6ad1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1432\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_b7628faeb8a6f7216bf3057ff67ffefd.setIcon(div_icon_a7869d5b839f854d4ce7293383fa6ad1);
+        
+    
+            var marker_b414d70e8d28ab809985d21888f59c5d = L.marker(
+                [35.0, 38.0],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b01f2170f7b961fea62f18f89102e869 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech1,77\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_b414d70e8d28ab809985d21888f59c5d.setIcon(div_icon_b01f2170f7b961fea62f18f89102e869);
+        
+    
+            var marker_41e44b56ce4654e0e7bfb6eae847f794 = L.marker(
+                [34.82099, 36.11773],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_3f8411f58767f0ac397a0a55082558b4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1541\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_41e44b56ce4654e0e7bfb6eae847f794.setIcon(div_icon_3f8411f58767f0ac397a0a55082558b4);
+        
+    
+            var marker_57e792e13bddfa32fc507205e574e95a = L.marker(
+                [35.44208, 36.65095],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b11c37a917ecf0616f10cc365eefa158 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1547\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_57e792e13bddfa32fc507205e574e95a.setIcon(div_icon_b11c37a917ecf0616f10cc365eefa158);
+        
+    
+            var marker_18dccee3ded7f5042afc3db7bb670773 = L.marker(
+                [34.51851, 36.36994],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_72709974a23e389ee4b4d09a01925af7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1559\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_18dccee3ded7f5042afc3db7bb670773.setIcon(div_icon_72709974a23e389ee4b4d09a01925af7);
+        
+    
+            var marker_6a1231cb2be498377e899f8e23796c9f = L.marker(
+                [33.66667, 35.83333],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_e9e43d9cab6b6185741afe224c3dbb6b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech10,295\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_6a1231cb2be498377e899f8e23796c9f.setIcon(div_icon_e9e43d9cab6b6185741afe224c3dbb6b);
+        
+    
+            var marker_7e656b7cd9ae7f69ee6f50736a0cc5a1 = L.marker(
+                [37.21283, 38.78174],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_8979a482217975f5d5cde31c54bba6b2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1772\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_7e656b7cd9ae7f69ee6f50736a0cc5a1.setIcon(div_icon_8979a482217975f5d5cde31c54bba6b2);
+        
+    
+            var marker_ef0a5fe801e7736588bc177790acf28c = L.marker(
+                [39.56131, 30.18813],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_5811c7c151b1fb9f8b3f18a957a2a336 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1410\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_ef0a5fe801e7736588bc177790acf28c.setIcon(div_icon_5811c7c151b1fb9f8b3f18a957a2a336);
+        
+    
+            var marker_05b30b51dac95f9362187e00e3474a88 = L.marker(
+                [36.49939, 36.35755],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_ddfdb7af3418390e641a47dba7d74a80 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech10,310\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_05b30b51dac95f9362187e00e3474a88.setIcon(div_icon_ddfdb7af3418390e641a47dba7d74a80);
+        
+    
+            var marker_d6ac91e6d07bcf34b45f2bbe80c0b831 = L.marker(
+                [37.05944, 37.3825],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_a47f46d2d06c3d0d8503479365d6133f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech10,308\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_d6ac91e6d07bcf34b45f2bbe80c0b831.setIcon(div_icon_a47f46d2d06c3d0d8503479365d6133f);
+        
+    
+            var marker_f3f0b955d5c3f4132a6eeb2e7347df05 = L.marker(
+                [30.85, 31.2],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_b79009c3bcefa6c163cd7c564cb07e3f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1701\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_f3f0b955d5c3f4132a6eeb2e7347df05.setIcon(div_icon_b79009c3bcefa6c163cd7c564cb07e3f);
+        
+    
+            var marker_1c8c3221cc95063218c330ef70ddf65f = L.marker(
+                [36.81138, 42.06206],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_1526a431d3e81a2a83afc436467956ad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1773\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1c8c3221cc95063218c330ef70ddf65f.setIcon(div_icon_1526a431d3e81a2a83afc436467956ad);
+        
+    
+            var marker_1ed0d7a77846b7c2e23aac32440e59b8 = L.marker(
+                [40.72799, 28.24974],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_08af507d683541bb358a89fb9626e372 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003ech7,93\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_1ed0d7a77846b7c2e23aac32440e59b8.setIcon(div_icon_08af507d683541bb358a89fb9626e372);
+        
+    
+            var marker_c433748f4b12e024e7769cddc068176e = L.marker(
+                [32.54083, 44.42417],
+                {}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+    
+            var div_icon_d497c348489741f3976b603b88e28cca = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 5pt\"\u003eigch1774\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [15, 15]});
+            marker_c433748f4b12e024e7769cddc068176e.setIcon(div_icon_d497c348489741f3976b603b88e28cca);
+        
+    
+            var layer_control_519bb33068c4cb3a3f76c8d8828ebf54 = {
+                base_layers : {
+                    "https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png" : tile_layer_99775a6791927dd62be71768efc29481,
+                },
+                overlays :  {
+                    "Coin Hoards Network: temnos" : feature_group_bd253dd19cde5bab6b3ea6ca1fee3604,
+                },
+            };
+            L.control.layers(
+                layer_control_519bb33068c4cb3a3f76c8d8828ebf54.base_layers,
+                layer_control_519bb33068c4cb3a3f76c8d8828ebf54.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_7f0241111205660c5dffcd64620528c7);
+        
+</script>
+</html>
